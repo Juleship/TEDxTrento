@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 
 
-hello world
+<div class="text-center">
+	<img src="<?php bloginfo( 'template_url' ); ?>/img/splash.png">
+</div>
 
 <?php get_footer(); ?>

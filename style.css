@@ -12,12 +12,13 @@ Text Domain: tedxtrento
 
 */
 
-.footer{
+.footer-grey{
 	background-color: #EDEDED;
+}
+.footer{
 }
 .footer p{
 	font-weight: 200;
-	font-size: 11px;
 	color: rgb(51, 51, 51);
 }
 .footer a{
@@ -40,4 +41,3 @@ body, html{
 .top-navbar li {
 	display:inline;
 }
-

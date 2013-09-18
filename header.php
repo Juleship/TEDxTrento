@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Bootstrap 101 Template</title>
+    <title>TEDx Trento</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="<?php bloginfo( 'template_url' ); ?>/css/bootstrap.css" rel="stylesheet" media="screen">
@@ -26,29 +26,31 @@
   </head>
 
   <body>
-  	<nav>
-	  <ul class="top-navbar">
-	  	<li>
-	  		<a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png"></a>
-	  	</li>
-	  	<li>
-	  		<a href="#">About</a>
-	  	</li>
-	  	<li>
-	  		<a href="#">Speakers</a>
-	  	</li>
-	  	<li>
-	  		<a href="#">Programma</a>
-	  	</li>
-	  	<li>
-	  		<a href="#">Team</a>
-	  	</li>
-	  	<li>
-	  		<a href="#">Partners</a>
-	  	</li>
-	  	<li>
-	  		<a href="#">Contatti</a>
-	  	</li>
-	  </ul>
-  	</nav>
+	  <nav>
+	  	<div class="col-md-12">
+		  <ul class="top-navbar">
+		  	<li>
+		  		<a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png"></a>
+		  	</li>
+		  	<li>
+		  		<a href="#">About</a>
+		  	</li>
+		  	<li>
+		  		<a href="#">Speakers</a>
+		  	</li>
+		  	<li>
+		  		<a href="#">Programma</a>
+		  	</li>
+		  	<li>
+		  		<a href="#">Team</a>
+		  	</li>
+		  	<li>
+		  		<a href="#">Partners</a>
+		  	</li>
+		  	<li>
+		  		<a href="#">Contatti</a>
+		  	</li>
+		  </ul>
+	  	</div>
+	  </nav>
 <!-- navbar -->
