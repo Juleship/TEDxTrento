@@ -1,6 +1,11 @@
-<footer>
-
-</footer>
+<div class="footer">
+	<div class="col-md-8 col-sm-12 col-md-offset-2 footer">
+		footer
+		<br />
+		footer
+	</div>
+	<div style="clear: both;"></div>
+</div>
 
 
 	<?php
