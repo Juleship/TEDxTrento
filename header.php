@@ -26,31 +26,31 @@
   </head>
 
   <body>
-	  <nav>
+	  <nav id="head">
 	  	<div class="col-md-12">
 		  <ul class="top-navbar">
 		  	<li>
-		  		<a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png"></a>
+		  		<a href="<?php echo home_url(); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png"></a>
 		  	</li>
 		  	<li>
-		  		<a href="#">About</a>
+		  		<a href="?page_id=2">About</a>
 		  	</li>
 		  	<li>
-		  		<a href="#">Speakers</a>
+		  		<a href="?page_id=8">Speakers</a>
 		  	</li>
 		  	<li>
-		  		<a href="#">Programma</a>
+		  		<a href="?page_id=10">Programma</a>
 		  	</li>
 		  	<li>
-		  		<a href="#">Team</a>
+		  		<a href="?page_id=6">Team</a>
 		  	</li>
 		  	<li>
-		  		<a href="#">Partners</a>
+		  		<a href="?page_id=12">Partners</a>
 		  	</li>
 		  	<li>
-		  		<a href="#">Contatti</a>
+		  		<a href="?page_id=15">Contatti</a>
 		  	</li>
 		  </ul>
 	  	</div>
 	  </nav>
-<!-- navbar -->
+	  <div class="wrapper" id="wrap">

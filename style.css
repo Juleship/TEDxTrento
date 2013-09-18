@@ -11,11 +11,9 @@ Tags:
 Text Domain: tedxtrento
 
 */
-
-.footer-grey{
+.footer-wrap{
+	margin-top: 20px;
 	background-color: #EDEDED;
-}
-.footer{
 }
 .footer p{
 	font-weight: 200;
@@ -31,13 +29,56 @@ Text Domain: tedxtrento
 body, html{
 	font-family: 'Raleway', sans-serif;
 }
-
 .top-navbar{
 	list-style-type:none;	
 	margin:0;
 	padding:0;	
 }
-
 .top-navbar li {
 	display:inline;
+}
+.wrapper{
+	position: relative;
+	width: 100%;
+	margin-top:20px;
+	min-height: 300px;	
+}
+.wrapper p{
+	font-size: 20px;
+	font-weight: 200;
+}
+.tab-content{
+	padding-top: 20px;
+}
+.tab-pane p{
+}
+#about-tab a{
+	color: white;
+	padding: 5px 10px 5px 10px;
+	line-height: 24px;
+}
+.active p{
+	color: black;
+}
+.active .local-logo{
+	color: black;
+}
+#about-tab p{
+	margin: 0;
+}
+.ted-logo{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: red;
+}
+.local-logo{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	color: white;
+}
+.nav-tabs > li > a {
+	border-radius: 0;
+	background-color: #262626;
 }

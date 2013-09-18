@@ -1,4 +1,5 @@
-<div class="footer-grey">
+</div>
+<div class="footer-wrap" id="foot">
 	<div class="col-md-8 col-sm-12 col-md-offset-2 footer-grey footer">
 		<img src="<?php bloginfo( 'template_url' );?>/img/logo.png" class="footer-logo"/>
 		<div class="hidden-sm hidden-xs">
@@ -30,5 +31,18 @@
     <script src="//code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<?php bloginfo( 'template_url' ); ?>/js/bootstrap.min.js"></script>
+    <script src="<?php bloginfo( 'template_url' ); ?>/js/tab.js"></script>
+    <script src="<?php bloginfo( 'template_url' ); ?>/js/functions.js"></script>
+    <script>
+	    $('#about-tab a').click(function (e) {
+		  	e.preventDefault();
+		  	$(this).tab('show');
+		});
+		$('#about-tab a').hover(function(e){
+			e.preventDefault();
+			$(this).click();
+		});
+	</script>
+	
   </body>
 </html>
