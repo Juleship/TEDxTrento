@@ -11,3 +11,18 @@ Tags:
 Text Domain: tedxtrento
 
 */
+
+body, html{
+	font-family: 'Raleway', sans-serif;
+}
+
+.top-navbar{
+	list-style-type:none;	
+	margin:0;
+	padding:0;	
+}
+
+.top-navbar li {
+	display:inline;
+}
+

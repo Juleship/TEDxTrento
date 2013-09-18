@@ -11,6 +11,8 @@
     <!-- Bootstrap -->
     <link href="<?php bloginfo( 'template_url' ); ?>/css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="<?php bloginfo( 'template_url' ); ?>/style.css" rel="stylesheet" media="screen">
+    <!-- G font -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:200,500' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -25,25 +27,27 @@
 
   <body>
   	<nav>
-	  <img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png">
-	  <ul>
+	  <ul class="top-navbar">
 	  	<li>
-	  		About
+	  		<a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png"></a>
 	  	</li>
 	  	<li>
-	  		Speakers
+	  		<a href="#">About</a>
 	  	</li>
 	  	<li>
-	  		Programma
+	  		<a href="#">Speakers</a>
 	  	</li>
 	  	<li>
-	  		Team
+	  		<a href="#">Programma</a>
 	  	</li>
 	  	<li>
-	  		Partners
+	  		<a href="#">Team</a>
 	  	</li>
 	  	<li>
-	  		Contatti
+	  		<a href="#">Partners</a>
+	  	</li>
+	  	<li>
+	  		<a href="#">Contatti</a>
 	  	</li>
 	  </ul>
   	</nav>
