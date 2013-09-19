@@ -34,8 +34,21 @@ body, html{
 	margin:0;
 	padding:0;	
 }
+.top-navbar a{
+	color: black;
+	font-size: 22px;
+	font-weight: 200;
+}
 .top-navbar li {
+	border-bottom: solid white 3px; 
 	display:inline;
+	padding-left:1%;
+	padding-right: 1%;
+}
+.top-navbar li a:hover{
+	border-bottom: solid red 3px; 
+	text-decoration: none;
+	color: black;
 }
 .wrapper{
 	position: relative;
@@ -50,8 +63,7 @@ body, html{
 .tab-content{
 	padding-top: 20px;
 }
-.tab-pane p{
-}
+
 #about-tab a{
 	color: white;
 	padding: 5px 10px 5px 10px;
@@ -81,4 +93,14 @@ body, html{
 .nav-tabs > li > a {
 	border-radius: 0;
 	background-color: #262626;
+}
+
+a {
+
+}
+
+a:hover {
+	border-bottom: solid red 3px; 
+	text-decoration: none;
+	color: black;
 }

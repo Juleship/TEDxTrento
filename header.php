@@ -26,6 +26,14 @@
   </head>
 
   <body>
+  	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=446677658730360";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	  <nav id="head">
 	  	<div class="col-md-12">
 		  <ul class="top-navbar">
@@ -51,6 +59,7 @@
 		  		<a href="?page_id=15">Contatti</a>
 		  	</li>
 		  </ul>
+		  <div class="fb-like" data-href="http://www.facebook.com/tedxtrento" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div>
 	  	</div>
 	  </nav>
 	  <div class="wrapper" id="wrap">
