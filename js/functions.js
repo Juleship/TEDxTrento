@@ -5,6 +5,7 @@
 		  	e.preventDefault();
 		  	$(this).tab('show');
 		  	var id = $(this).attr('href');
+		  	id.text( id.text().replace('#', '') );
 		  	console.log(id);
 		});
 	$('#about-tab a').hover(function(e){
