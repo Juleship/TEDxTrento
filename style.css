@@ -51,6 +51,9 @@ body, html{
 	padding-left:1%;
 	padding-right: 1%;
 }
+.top-navbar li a img:hover{
+	border-bottom: solid white 3px;
+}
 .top-navbar li a:hover{
 	border-bottom: solid red 3px; 
 	text-decoration: none;

@@ -62,7 +62,7 @@
 			  	</li>
 			  </ul>	
 	  		</div>			  
-			<div class="fb-like col-sm-2" data-href="http://www.facebook.com/tedxtrento" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+<!-- 			<div class="fb-like col-sm-2" data-href="http://www.facebook.com/tedxtrento" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div> -->
 	  	</div>
 	  	<div style="clear:both"></div>
 	  <div class="wrapper" id="wrap">
