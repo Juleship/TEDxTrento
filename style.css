@@ -13,6 +13,7 @@ Text Domain: tedxtrento
 */
 .footer-wrap{
 	margin-top: 20px;
+	padding-top:10px;
 	background-color: #EDEDED;
 }
 .footer p{
@@ -117,7 +118,8 @@ a:hover {
 	color: red;
 }
 .about-logo-container .big-x{
-	
+	font-size: 80px;
+	vertical-align: super;
 }
 .about-logo-container .big-trento{
 	color: black;
