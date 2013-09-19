@@ -33,9 +33,7 @@
     <script src="<?php bloginfo( 'template_url' ); ?>/js/bootstrap.min.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/js/tab.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/js/functions.js"></script>
-    <script>
-	    
-	</script>
+    <script src="<?php bloginfo( 'template_url' ); ?>/js/about.js"></script>
 	
   </body>
 </html>
