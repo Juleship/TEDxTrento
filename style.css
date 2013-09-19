@@ -32,12 +32,17 @@ body, html{
 .top-navbar{
 	list-style-type:none;	
 	margin:0;
-	padding:0;	
+}
+.header{
+	padding:1% 0px 0px 0px;
 }
 .top-navbar a{
 	color: black;
 	font-size: 22px;
 	font-weight: 200;
+}
+.top-navbar {
+/* 	padding-top:2px; */
 }
 .top-navbar li {
 	border-bottom: solid white 3px; 
@@ -54,7 +59,7 @@ body, html{
 	position: relative;
 	width: 100%;
 	margin-top:20px;
-	min-height: 300px;	
+	min-height: 300px;	/* why? */
 }
 .wrapper p{
 	font-size: 20px;
@@ -94,11 +99,6 @@ body, html{
 	border-radius: 0;
 	background-color: #262626;
 }
-
-a {
-
-}
-
 a:hover {
 	border-bottom: solid red 3px; 
 	text-decoration: none;
@@ -121,4 +121,13 @@ a:hover {
 }
 .about-logo-container .big-trento{
 	color: black;
+}
+	padding-top: 1.2%;
+}
+.top-red{
+	background-color: red;
+	height: 3px;
+}
+.logo{
+	padding-right: 8%;
 }

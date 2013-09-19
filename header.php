@@ -34,11 +34,13 @@
 	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=446677658730360";
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
-	  <nav id="head">
-	  	<div class="col-md-12">
+
+		<div class="top-red"></div>
+	  	<div class="header row">
+	  		<div class="col-sm-10">
 			  <ul class="top-navbar">
 			  	<li>
-			  		<a href="<?php echo home_url(); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png"></a>
+			  		<a class="logo" href="<?php echo home_url(); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png"></a>
 			  	</li>
 			  	<li>
 			  		<a href="?page_id=2">About</a>
@@ -58,9 +60,9 @@
 			  	<li>
 			  		<a href="?page_id=15">Contatti</a>
 			  	</li>
-			  </ul>			
-			<div class="fb-like" data-href="http://www.facebook.com/tedxtrento" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div>
-			
+			  </ul>	
+	  		</div>			  
+			<div class="fb-like col-sm-2" data-href="http://www.facebook.com/tedxtrento" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div>
 	  	</div>
-	  </nav>
+	  	<div style="clear:both"></div>
 	  <div class="wrapper" id="wrap">
