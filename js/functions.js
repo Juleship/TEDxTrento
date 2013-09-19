@@ -1,24 +1,28 @@
-	/*
-	*	BOOTSTRAP PANEL FUNCTIONS 
-	*/
-	$('#about-tab a').click(function (e) {
-		  	e.preventDefault();
-		  	$(this).tab('show');
-		  	var id = $(this).attr('href');
-		  	id.replace('#', '');
-		  	console.log(id);
-		});
-	$('#about-tab a').hover(function(e){
-		e.preventDefault();
-		$(this).click();
+/*
+*	BOOTSTRAP PANEL FUNCTIONS 
+*/
+$('#about-tab a').click(function (e) {
+	  	e.preventDefault();
+	  	$(this).tab('show');
+	  	var id = $(this).attr('href');
+	  	id = id.replace('#', '');
+	  	var big_id = 'big-' + id;
+	  	if(big_id == 'big-ted'){
+		  	$('.big-tedx').css({'color' : 'white'});
+		  	$('.big-tedxtrento').css({'color' : 'white'});
+	  	}
+	  	else if(big_id == 'big-tedx'){
+	  		$('.big-tedx').css({'color' : 'red'});
+		  	$('.big-tedxtrento').css({'color' : 'white'});
+	  	}
+	  	else if(big_id == 'big-tedxtrento'){
+	  		$('.big-tedx').css({'color' : 'red'});
+		  	$('.big-tedxtrento').css({'color' : 'black'});
+	  	}
 	});
-	
-	
-	
-	var footerH = $('#foot').height();
-	var headerH = $('#head').height();
-	var minWrapperH = $(window).height() - footerH - headerH;
-	
-	$('#wrap').css({'min-height' : minWrapperH + 'px'});	
-	
+$('#about-tab a').hover(function(e){
+	e.preventDefault();
+	$(this).click();
+});
+
 	

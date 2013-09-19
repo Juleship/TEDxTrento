@@ -3,7 +3,7 @@
 	*/
 	get_header(); 
 ?>
-	<div class="col-sm-6 col-sm-offset-3">
+	<div class="col-sm-6 col-sm-offset-3" id="big-tabs">
 		<ul class="nav nav-tabs" id="about-tab">
 		  <li class="active">
 		  	<a href="#ted">
@@ -25,7 +25,7 @@
 		  </li>
 		</ul>
 		<div class="about-logo-container">
-			<span class="big-ted">TED</span><span class="big-x">x</span><span class="big-trento">Trento</span>
+			<span class="big-ted">TED</span><span class="big-tedx">x</span><span class="big-tedxtrento">Trento</span>
 		</div>
 		<div class="tab-content">
 		  <div class="tab-pane active" id="ted">
