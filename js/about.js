@@ -1,5 +1,6 @@
 /*
 *	about page wrapper height
 */
-
-$('#wrap').css({'height' : $('#big-tabs').height() + 'px' });
+$(document).ready(function(){
+/* 	$('#wrap').css({'height' : $('#ted').height() + $('#about-tab').height() + $('#about-logo-container').height() + 'px' }); */
+});
