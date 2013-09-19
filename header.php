@@ -34,18 +34,40 @@
   </head>
 
   <body>
+  	<!-- Facebook stuff, i don't really get it to be honest -->
   	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=446677658730360";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
 
 		<div class="top-red"></div>
-	  	<div class="header row">
-	  		<div class="col-sm-12">
+		<!-- let's get some mobile -->
+			<nav class="navbar navbar-default visible-sm visible-xs" role="navigation">
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+			      <span class="sr-only">Toggle navigation</span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			    </button>
+			    <a class="navbar-brand" href="#">TEDxTrento</a>
+			  </div>
+			
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+			  <div class="collapse navbar-collapse navbar-ex1-collapse">
+			    <ul class="nav navbar-nav">
+			      <li class="active"><a href="?page_id=2">About</a></li>
+			      <li><a href="?page_id=8">Speakers</a></li>
+			      <li><a href="?page_id=10">Programma</a></li>
+			      <li><a href="?page_id=6">Team</a></li>
+			      <li><a href="?page_id=12">Partners</a></li>
+			      <li><a href="?page_id=15">Contatti</a></li>
+			    </ul>
+			  </div><!-- /.navbar-collapse -->
+			</nav>
+		<!-- !mobile -->
+		
+		<!-- this is for desktop -->
+	  	<div class="header row hidden-sm hidden-xs">
+	  		<div class="col-md-12">
 			  <ul class="top-navbar">
 			  	<li>
 			  		<a class="logo" href="<?php echo home_url(); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png"></a>
