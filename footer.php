@@ -34,6 +34,9 @@
     <script src="<?php bloginfo( 'template_url' ); ?>/js/tab.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/js/functions.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/js/about.js"></script>
-	
+	<script>
+	  $(function () {
+	  })
+	</script>
   </body>
 </html>

@@ -5,7 +5,7 @@
 ?>
 	<div class="col-sm-6 col-sm-offset-3" id="big-tabs">
 		<ul class="nav nav-tabs" id="about-tab">
-		  <li class="active">
+		  <li class="active" id="first">
 		  	<a href="#ted" data-toggle="tab">
 		  		<p>Che cos'è</p>
 		  		<span class="ted-logo">TED</span>
