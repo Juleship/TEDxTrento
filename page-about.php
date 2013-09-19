@@ -24,7 +24,9 @@
 		  	</a>
 		  </li>
 		</ul>
-		
+		<div class="about-logo-container">
+			<span class="big-ted">TED</span><span class="big-x">x</span><span class="big-trento">Trento</span>
+		</div>
 		<div class="tab-content">
 		  <div class="tab-pane active" id="ted">
 		  	<p>
