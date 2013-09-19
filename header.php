@@ -36,7 +36,6 @@
 	}(document, 'script', 'facebook-jssdk'));</script>
 	  <nav id="head">
 	  	<div class="col-md-12">
-			<div class="col-md-10">	 
 			  <ul class="top-navbar">
 			  	<li>
 			  		<a href="<?php echo home_url(); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png"></a>
@@ -59,11 +58,9 @@
 			  	<li>
 			  		<a href="?page_id=15">Contatti</a>
 			  	</li>
-			  </ul>
-			</div>
-			<div class="col-md-2">
-				<div class="fb-like" data-href="http://www.facebook.com/tedxtrento" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div>
-			</div>
+			  </ul>			
+			<div class="fb-like" data-href="http://www.facebook.com/tedxtrento" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+			
 	  	</div>
 	  </nav>
 	  <div class="wrapper" id="wrap">
