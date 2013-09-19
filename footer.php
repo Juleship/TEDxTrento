@@ -34,14 +34,7 @@
     <script src="<?php bloginfo( 'template_url' ); ?>/js/tab.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/js/functions.js"></script>
     <script>
-	    $('#about-tab a').click(function (e) {
-		  	e.preventDefault();
-		  	$(this).tab('show');
-		});
-		$('#about-tab a').hover(function(e){
-			e.preventDefault();
-			$(this).click();
-		});
+	    
 	</script>
 	
   </body>

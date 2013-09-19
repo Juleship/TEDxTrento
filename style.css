@@ -66,7 +66,7 @@ body, html{
 	font-weight: 200;
 }
 .tab-content{
-	padding-top: 20px;
+	padding-top: 0px;
 }
 
 #about-tab a{
@@ -105,6 +105,23 @@ a:hover {
 	color: black;
 }
 .fb-like{
+}
+.about-logo-container{
+	width: 100%;
+	margin-top: 10px;
+	font-size: 100px;
+}
+.about-logo-container .big-ted, .about-logo-container .big-x{
+	font-family: Helvetica, sans-serif;
+	font-weight: bolder;
+	color: red;
+}
+.about-logo-container .big-x{
+	
+}
+.about-logo-container .big-trento{
+	color: black;
+}
 	padding-top: 1.2%;
 }
 .top-red{
