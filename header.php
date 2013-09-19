@@ -36,30 +36,34 @@
 	}(document, 'script', 'facebook-jssdk'));</script>
 	  <nav id="head">
 	  	<div class="col-md-12">
-		  <ul class="top-navbar">
-		  	<li>
-		  		<a href="<?php echo home_url(); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png"></a>
-		  	</li>
-		  	<li>
-		  		<a href="?page_id=2">About</a>
-		  	</li>
-		  	<li>
-		  		<a href="?page_id=8">Speakers</a>
-		  	</li>
-		  	<li>
-		  		<a href="?page_id=10">Programma</a>
-		  	</li>
-		  	<li>
-		  		<a href="?page_id=6">Team</a>
-		  	</li>
-		  	<li>
-		  		<a href="?page_id=12">Partners</a>
-		  	</li>
-		  	<li>
-		  		<a href="?page_id=15">Contatti</a>
-		  	</li>
-		  </ul>
-		  <div class="fb-like" data-href="http://www.facebook.com/tedxtrento" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+			<div class="col-md-10">	 
+			  <ul class="top-navbar">
+			  	<li>
+			  		<a href="<?php echo home_url(); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png"></a>
+			  	</li>
+			  	<li>
+			  		<a href="?page_id=2">About</a>
+			  	</li>
+			  	<li>
+			  		<a href="?page_id=8">Speakers</a>
+			  	</li>
+			  	<li>
+			  		<a href="?page_id=10">Programma</a>
+			  	</li>
+			  	<li>
+			  		<a href="?page_id=6">Team</a>
+			  	</li>
+			  	<li>
+			  		<a href="?page_id=12">Partners</a>
+			  	</li>
+			  	<li>
+			  		<a href="?page_id=15">Contatti</a>
+			  	</li>
+			  </ul>
+			</div>
+			<div class="col-md-2">
+				<div class="fb-like" data-href="http://www.facebook.com/tedxtrento" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+			</div>
 	  	</div>
 	  </nav>
 	  <div class="wrapper" id="wrap">
