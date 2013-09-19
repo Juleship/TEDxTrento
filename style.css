@@ -104,8 +104,6 @@ a:hover {
 	text-decoration: none;
 	color: black;
 }
-.fb-like{
-}
 .about-logo-container{
 	width: 100%;
 	margin-top: 10px;
@@ -122,6 +120,7 @@ a:hover {
 .about-logo-container .big-trento{
 	color: black;
 }
+.fb-like{
 	padding-top: 1.2%;
 }
 .top-red{
