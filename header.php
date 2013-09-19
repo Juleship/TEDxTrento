@@ -29,7 +29,7 @@
     <![endif]-->
     
     <?php
-	wp_head();
+		wp_head();
 	?>
   </head>
 

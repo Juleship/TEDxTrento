@@ -1,0 +1,28 @@
+.staff-member-listing{
+	width: 100%;
+}
+.staff-member{
+	box-sizing: border-box;
+}
+
+/* Speakers styling */
+
+.speakers .staff-member{
+	position: relative;
+	float: left;
+	width:50%;
+	padding: 10px;
+}
+.speakers .staff-member .staff-member-photo{
+	position: relative;
+	top: 0;
+	height: 200px;
+	border-radius: 100px; 
+}
+.speakers .even img{
+	float: left;
+}
+.speakers .odd img{
+	float: right;
+}
+

@@ -15,6 +15,7 @@ Text Domain: tedxtrento
 	margin-top: 20px;
 	padding-top:10px;
 	background-color: #EDEDED;
+	padding-bottom: 10px;
 }
 .footer p{
 	font-weight: 200;
@@ -26,6 +27,7 @@ Text Domain: tedxtrento
 }
 .footer-logo{
 	width: 100px;
+	margin: 10px 0px 20px 0px;
 }
 body, html{
 	font-family: 'Raleway', sans-serif;

@@ -59,7 +59,7 @@
 			<span class="big-ted">TED</span><span class="big-tedx">x</span><span class="big-tedxtrento">Trento</span>
 		</div>
 		<div class="tab-content">
-		  <div class="tab-pane active fade" id="ted">
+		  <div class="tab-pane active start fade" id="ted">
 		  	<p>
 				TED è un’organizzazione no-profit che ha come obiettivo quello di diffondere idee che hanno valore. Iniziato come una conferenza in California in 1984, TED è cresciuta nella sua “mission” attraverso molteplici iniziative.
 			</p>
