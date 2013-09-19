@@ -72,6 +72,7 @@ body, html{
 }
 .tab-content{
 	padding-top: 0px;
+	padding-bottom: 40px;
 }
 
 #about-tab a{
