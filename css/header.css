@@ -1,0 +1,46 @@
+.top-navbar{
+	list-style-type:none;	
+	margin:0;
+	height: 100%;
+}
+.header{
+	width: 100%;
+	margin:2% 0px 2% 0px;
+}
+.top-navbar li a{
+	display: inline-block;
+	color: black;
+	font-size: 22px;
+	font-weight: 200;
+	vertical-align: bottom;
+	border-bottom: solid white 3px;
+}
+.top-navbar {
+/* 	padding-top:2px; */
+	height: 50px;
+}
+.top-navbar li {
+	display:inline-block;
+	padding-left:1%;
+	padding-right: 1%;
+	height: 50px;
+}
+.top-navbar li img{
+	height: 50px;
+}
+.menu-item a:hover{
+	border-bottom: solid #FF2B06 3px; 
+	text-decoration: none;
+	color: black;
+}
+.fb-like{
+	padding-top: 0;
+	padding-left: 0px;
+}
+.top-red{
+	background-color: #FF2B06;
+	height: 3px;
+}
+.logo{
+	padding-right: 8%;
+}

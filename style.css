@@ -30,106 +30,34 @@ Text Domain: tedxtrento
 body, html{
 	font-family: 'Raleway', sans-serif;
 }
-.top-navbar{
-	list-style-type:none;	
-	margin:0;
-}
-.header{
-	width: 100%;
-	padding:1% 0px 2% 0px;
-}
-.top-navbar a{
-	color: black;
-	font-size: 22px;
-	font-weight: 200;
-}
-.top-navbar {
-/* 	padding-top:2px; */
-}
-.top-navbar li {
-	border-bottom: solid white 3px; 
-	display:inline;
-	padding-left:1%;
-	padding-right: 1%;
-}
-.menu-item a:hover{
-	border-bottom: solid red 3px; 
-	text-decoration: none;
-	color: black;
-}
 .wrapper{
 	position: relative;
 	width: 100%;
-	margin-top:20px;
+	margin-top:60px;
 	/* min-height: 300px; */	/* why? */
 }
 .wrapper p{
 	font-size: 20px;
 	font-weight: 200;
 }
-.tab-content{
-	padding-top: 0px;
-	padding-bottom: 40px;
+.mobile h2{
+	color: #FF2B06;
+	font-size: 50px;
 }
-
-#about-tab a{
-	color: white;
-	padding: 5px 10px 5px 10px;
-	line-height: 24px;
-}
-.active p{
+.black{
 	color: black;
 }
-.active .local-logo{
-	color: black;
+.mobile-about{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
-#about-tab p{
-	margin: 0;
-}
-.ted-logo{
-	font-family: 'Helvetica', sans-serif;
-	font-size: 25px;
-	font-weight: bold;
-	color: red;
-}
-.local-logo{
-	font-family: 'Helvetica', sans-serif;
-	font-size: 25px;
-	font-weight: normal;
-	color: white;
-}
-.nav-tabs > li > a {
-	border-radius: 0;
-	background-color: #262626;
-}
-a:hover {
-	text-decoration: none;
-}
-.about-logo-container{
-	width: 100%;
-	margin-top: 10px;
-	font-size: 100px;
-}
-.about-logo-container .big-ted, .about-logo-container .big-tedx{
+.ted-title{
 	font-family: Helvetica, sans-serif;
-	font-weight: bolder;
-	color: red;
+	font-weight: bold;
 }
-.about-logo-container .big-tedx{
-	font-size: 80px;
-	vertical-align: super;
-	color: white;
-}
-.about-logo-container .big-tedxtrento{
-	color: white;
-}
-.fb-like{
-	padding-top: 1.2%;
-}
-.top-red{
-	background-color: red;
-	height: 3px;
-}
-.logo{
-	padding-right: 8%;
+.trento-title{
+	font-family: Helvetica, sans-serif;
+	font-weight: normal;
 }
