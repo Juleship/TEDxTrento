@@ -6,19 +6,19 @@
 	<div class="col-sm-6 col-sm-offset-3" id="big-tabs">
 		<ul class="nav nav-tabs" id="about-tab">
 		  <li class="active">
-		  	<a href="#ted">
+		  	<a href="#ted" data-toggle="tab">
 		  		<p>Che cos'è</p>
 		  		<span class="ted-logo">TED</span>
 		  	</a>
 		  </li>
 		  <li>
-		  	<a href="#tedx">
+		  	<a href="#tedx" data-toggle="tab">
 			  	<p>Che cos'è</p>
 			  	<span class="ted-logo">TEDx</span>
 			</a>
 		  </li>
 		  <li>
-		  	<a href="#tedxtrento">
+		  	<a href="#tedxtrento" data-toggle="tab">
 		  		<p>Che cos'è</p>
 		  		<span class="ted-logo">TEDx<span class="local-logo">Trento</span></span>
 		  	</a>
@@ -28,7 +28,7 @@
 			<span class="big-ted">TED</span><span class="big-tedx">x</span><span class="big-tedxtrento">Trento</span>
 		</div>
 		<div class="tab-content">
-		  <div class="tab-pane active" id="ted">
+		  <div class="tab-pane active fade" id="ted">
 		  	<p>
 				TED è un’organizzazione no-profit che ha come obiettivo quello di diffondere idee che hanno valore. Iniziato come una conferenza in California in 1984, TED è cresciuta nella sua “mission” attraverso molteplici iniziative.
 			</p>
@@ -44,12 +44,12 @@
 			<p>
 				L’iniziativa TEDx offre a individui o a gruppi un modo di organizzare in modo autonomo eventi locali ispirati a TED. Più di 5.000 eventi TEDx sono stati realizzati finora e alcune presentazioni di questi sono diventate video TEDTalks. Il TED Fellows Program aiuta gli innovatori di ogni parte del mondo a diventare parte della comunità di TED e, con l’aiuto di quest’ultima, ad amplificare l’impatto dei loro progetti e attività. TED-Ed mette insieme maestri e animatori per realizzare brevi lezioni da usare in classe o autonomamente.
 			</p></div>
-		  <div class="tab-pane" id="tedx">
+		  <div class="tab-pane fade" id="tedx">
 			  <p>
 			  	Nello spirito di “idee che meritano di essere diffuse”, TEDx è una serie di eventi locali e autonomi che si propongono di riunire persone per condividere un’esperienza simile a quella che si vive con TED. Ad un’evento TEDx presentazioni dal vivo e proiezioni di video tratti da TEDTalks sono combinati per favorire relazioni e discussioni all’interno dei partecipanti. Questi eventi locali e autonomi hanno il brand TEDx, dove x sta per “evento TED organizzato in modo indipendente.” La conferenza TED da consigli generali, norme e regolamenti per il programma TEDx, ma ogni evento TEDx è organizzato in modo indipendente.
 			  </p>
 		  </div>
-		  <div class="tab-pane" id="tedxtrento">
+		  <div class="tab-pane fade" id="tedxtrento">
 			  <p>
 			  	TEDxTrento è una conferenza che vede coinvolta una comunità di appassionati allo spirito del TED e utilizza lo strumento del TEDx per la diffusione delle idee. Il nostro evento vuole ispirare alle novità, promuovere l’innovazione sociale, facilitare l’incontro tra persone e gruppi per sviluppare nuovi incredibili progetti, diffondere la tematica della qualità della vita e molto altro ancora.
 			  </p>

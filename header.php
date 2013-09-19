@@ -42,22 +42,22 @@
 			  	<li>
 			  		<a class="logo" href="<?php echo home_url(); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png"></a>
 			  	</li>
-			  	<li>
+			  	<li class="menu-item">
 			  		<a href="?page_id=2">About</a>
 			  	</li>
-			  	<li>
+			  	<li class="menu-item">
 			  		<a href="?page_id=8">Speakers</a>
 			  	</li>
-			  	<li>
+			  	<li class="menu-item">
 			  		<a href="?page_id=10">Programma</a>
 			  	</li>
-			  	<li>
+			  	<li class="menu-item">
 			  		<a href="?page_id=6">Team</a>
 			  	</li>
-			  	<li>
+			  	<li class="menu-item">
 			  		<a href="?page_id=12">Partners</a>
 			  	</li>
-			  	<li>
+			  	<li class="menu-item">
 			  		<a href="?page_id=15">Contatti</a>
 			  	</li>
 			  </ul>	
