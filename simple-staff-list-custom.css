@@ -88,3 +88,51 @@
 		line-height: 130px;
 	}
 }
+
+
+/* Tech Partners styling */
+.tech-partners .staff-member{
+	position: relative;
+	float: left;
+	width:15%;
+	padding: 5px;
+}
+.tech-partners .staff-member .staff-member-photo{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 10px;
+}
+.tech-partners .staff-member-info-wrap .staff-member-position{
+	font-size: 14px;
+	font-style: italic;
+	margin-bottom: 0;
+}
+.tech-partners .staff-member-info-wrap .staff-website a{
+	color: #FF2B06;
+	font-size: 13px;
+}
+.tech-partners h3{
+	margin: 0;
+	font-size: 16px;
+	display: none;
+}
+.tech-partners .staff-img img{
+	vertical-align: middle;
+}
+@media (max-width: 992px ) {
+	.tech-partners .staff-member{
+		width: 25%;
+	}
+	.tech-partners .staff-img{
+		min-height: 150px;
+		line-height: 150px;
+	}
+}
+@media (min-width: 992px ) {
+	.tech-partners .staff-img{
+		min-height: 100px;
+		line-height: 100px;
+	}
+}
