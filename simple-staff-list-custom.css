@@ -40,4 +40,7 @@
 	.speakers .staff-member{
 		width: 100%;
 	}
+	.speakers .staff-member .staff-member-photo{
+		height: 140px;
+	}
 }
