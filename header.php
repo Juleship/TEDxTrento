@@ -6,17 +6,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TEDx Trento</title>
+  	<?php 
+    	if ( have_posts() ) : while ( have_posts() ) : the_post(); 
+    	$page_name_big = get_the_title(); 
+	    $page_name = strtolower($page_name_big);
+	    endwhile; endif; 
+	?>
+    <title>TEDx Trento - <?php echo $page_name_big ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="<?php bloginfo( 'template_url' ); ?>/css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="<?php bloginfo( 'template_url' ); ?>/style.css" rel="stylesheet" media="screen">
-    <?php 
-    	if ( have_posts() ) : while ( have_posts() ) : the_post(); 
-    	$page_name = get_the_title(); 
-	    $page_name = strtolower($page_name);
-	    endwhile; endif; 
-	?>
     <link href="<?php bloginfo( 'template_url' ); ?>/css/<?php echo $page_name ?>.css" rel="stylesheet" media="screen">
     <link href="<?php bloginfo( 'template_url' ); ?>/css/header.css" rel="stylesheet" media="screen">
     <!-- G font -->
@@ -54,12 +54,12 @@
 			  <!-- Collect the nav links, forms, and other content for toggling -->
 			  <div class="collapse navbar-collapse navbar-ex1-collapse">
 			    <ul class="nav navbar-nav">
-			      <li class="active"><a href="?page_id=2">About</a></li>
-			      <li><a href="?page_id=8">Speakers</a></li>
-			      <li><a href="?page_id=10">Programma</a></li>
-			      <li><a href="?page_id=6">Team</a></li>
-			      <li><a href="?page_id=12">Partners</a></li>
-			      <li><a href="?page_id=15">Contatti</a></li>
+			      <li id="nav-about"><a href="?page_id=2">About</a></li>
+			      <li id="nav-speakers"><a href="?page_id=8">Speakers</a></li>
+			      <li id="nav-programma"><a href="?page_id=10">Programma</a></li>
+			      <li id="nav-team"><a href="?page_id=6">Team</a></li>
+			      <li id="nav-partners"><a href="?page_id=12">Partners</a></li>
+			      <li id="nav-contatti"><a href="?page_id=15">Contatti</a></li>
 			    </ul>
 			  </div><!-- /.navbar-collapse -->
 			</nav>
