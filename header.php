@@ -56,7 +56,7 @@
 			    <ul class="nav navbar-nav">
 			      <li id="nav-about"><a href="?page_id=2">About</a></li>
 			      <li id="nav-speakers"><a href="?page_id=8">Speakers</a></li>
-			      <li id="nav-programma"><a href="?page_id=10">Programma</a></li>
+			      <!-- <li id="nav-programma"><a href="?page_id=10">Programma</a></li> -->
 			      <li id="nav-team"><a href="?page_id=6">Team</a></li>
 			      <li id="nav-partners"><a href="?page_id=12">Partners</a></li>
 			      <li id="nav-contatti"><a href="?page_id=15">Contatti</a></li>
@@ -78,9 +78,11 @@
 			  	<li class="menu-item speakers">
 			  		<a href="?page_id=8">Speakers</a>
 			  	</li>
-			  	<li class="menu-item programma">
+			  	<!--
+<li class="menu-item programma">
 			  		<a href="?page_id=10">Programma</a>
 			  	</li>
+-->
 			  	<li class="menu-item team">
 			  		<a href="?page_id=6">Team</a>
 			  	</li>
