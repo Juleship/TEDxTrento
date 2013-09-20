@@ -7,17 +7,19 @@
 	$postid;
 ?>
 	<div class="col-sm-12 padded-row">
-		<div class="col-sm-8">
-			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-			<?php the_content(); ?>
-			<?php endwhile; endif; ?>
-		</div>
-		<div class="col-sm-4 partners-intro">
+	
+		<div class="col-md-4 col-sm-5 partners-intro">
+			<hr />
 			<?php
 				$getpost= get_post($postid);
 				$postcontent= $getpost->post_content;
 				echo $postcontent;
 			?>
+		</div>
+		<div class="col-md-8 col-sm-7">
+			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+			<?php the_content(); ?>
+			<?php endwhile; endif; ?>
 		</div>
 		<div style="clear:both;">
 		</div>
