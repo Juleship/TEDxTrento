@@ -1,4 +1,5 @@
 	</div>
+	<div class="top-red"></div>
 	<div class="footer-wrap" id="foot">
 		<div class="col-md-8 col-sm-12 col-md-offset-2 footer-grey footer">
 			<img src="<?php bloginfo( 'template_url' );?>/img/small-logo.png" class="footer-logo"/>
@@ -11,7 +12,7 @@
 			
 			<small>
 				<p>© TEDxTrento . This independent TEDx event is operated under license from <a href="http://www.ted.com" target="_blank">TED</a>. </p>
-				<p>Designed and developed with love by <a href="http://www.facebook.com/babbiesproduction" target="_blank">Babbies Production</a> - Giulio Michelon and Leonardo Lanzinger.
+				<p>Designed and developed with love by <a href="http://www.facebook.com/babbiesproduction" target="_blank">Babbies Production</a> - <a href="http://www.giuliomichelon.com">Giulio Michelon</a> and Leonardo Lanzinger.
 				</p>
 			</small>
 		</div>

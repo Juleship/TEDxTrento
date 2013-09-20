@@ -17,7 +17,6 @@ Text Domain: tedxtrento
 */
 
 .footer-wrap{
-	margin-top: 20px;
 	padding-top:10px;
 	background-color: #EDEDED;
 	padding-bottom: 10px;
@@ -48,7 +47,6 @@ body, html{
 	font-weight: 200;
 }
 .mobile h2{
-	color: #FF2B06;
 	font-size: 50px;
 }
 .black{
@@ -67,4 +65,9 @@ body, html{
 .trento-title{
 	font-family: Helvetica, sans-serif;
 	font-weight: normal;
+}
+
+.red-text,
+.mobile h2{
+	color: #FF2B06;
 }
