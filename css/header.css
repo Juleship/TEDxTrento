@@ -47,3 +47,6 @@
 .logo{
 	padding-right: 8%;
 }
+.active-bignav a{
+	border-bottom: solid #FF2B06 3px !important; 
+}
