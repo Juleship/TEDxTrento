@@ -60,6 +60,7 @@
 		</div>
 		<div class="tab-content">
 		  <div class="tab-pane active start fade" id="ted">
+		  	<img src="<?php bloginfo( 'template_url' ); ?>/img/about_ted.jpg">
 		  	<p>
 				TED è un’organizzazione no-profit che ha come obiettivo quello di diffondere idee che hanno valore. Iniziato come una conferenza in California in 1984, TED è cresciuta nella sua “mission” attraverso molteplici iniziative.
 			</p>
