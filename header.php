@@ -98,8 +98,7 @@
 	  		<div class="col-sm-2">
 				<div class="fb-like" data-href="http://www.facebook.com/tedxtrento" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div>
 				<a href="https://twitter.com/tedxtrento" class="twitter-follow-button" data-show-count="false" data-lang="it">Segui @tedxtrento</a>
-	  		</div>
--->
+	  		</div>-->
 	  	</div>
 	  	<div style="clear:both"></div>
 	  <div class="wrapper" id="wrap">
