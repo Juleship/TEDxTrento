@@ -21,7 +21,11 @@
 
 
 	<?php
-	wp_footer();
+		wp_footer();
+    	if ( have_posts() ) : while ( have_posts() ) : the_post(); 
+    	$page_name = get_the_title(); 
+	    $page_name = strtolower($page_name);
+	    endwhile; endif; 
 	?>
 	
 <!--
@@ -43,6 +47,9 @@
     <script src="<?php bloginfo( 'template_url' ); ?>/js/tab.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/js/functions.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/js/about.js"></script>
+    <?php 
+    	echo "<script>$('#nav-".$page_name."').addClass('active');</script>";
+    ?>
 	<script>
 		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 	</script>
