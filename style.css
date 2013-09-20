@@ -71,3 +71,7 @@ body, html{
 .mobile h2{
 	color: #FF2B06;
 }
+.padded-row{
+	padding-left: 20px;
+	padding-right: 20px;
+}
