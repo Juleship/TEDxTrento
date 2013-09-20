@@ -36,3 +36,8 @@
 .speakers .staff-member-info-wrap .staff-website a{
 	color: #FF2B06;
 }
+@media (max-width: 992px ) {
+	.speakers .staff-member{
+		width: 100%;
+	}
+}
