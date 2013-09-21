@@ -57,3 +57,7 @@ a:hover {
 .start{
 	opacity: 1;
 }
+.tab-content img{
+	width: 100%;
+	padding-bottom: 2%;
+}
