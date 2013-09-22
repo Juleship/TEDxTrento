@@ -60,7 +60,7 @@
 	margin: 10px;
 }
 .partners .staff-member-info-wrap .staff-excerpt{
-	font-size: 14px;
+	font-size: 11px;
 	font-style: italic;
 	margin-bottom: 0;
 }
@@ -134,5 +134,62 @@
 	.tech-partners .staff-img{
 		min-height: 100px;
 		line-height: 100px;
+	}
+}
+
+/* Team styling */
+.team .staff-member{
+	position: relative;
+	float: left;
+	width:20%;
+	padding: 0px;
+	border-bottom: 1px solid grey;
+}
+.team .staff-member .staff-member-photo{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0px;
+}
+.team .staff-member .staff-member-photo img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.team .staff-member:hover .staff-member-photo{
+	opacity: 0.5;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+	cursor: default;
+}
+.team .staff-member .staff-member-info-wrap{
+	padding-left: 10%;
+	padding-right: 10%;
+	color: black;
+	display: none;
+	width: 100%;
+	text-align: center;
+	top: 30%;
+	position: absolute;
+}
+.team .staff-member .staff-member-info-wrap .staff-member-name{
+	font-size: 20px;
+}
+.team .staff-member .staff-member-info-wrap .staff-member-position{
+	font-size: 15px;
+	font-weight: 200;
+}
+.team .staff-member:hover .staff-member-info-wrap{
+	display:block;
+	cursor: default;
+}
+@media (max-width: 768px ) {
+	.team .staff-member{
+		width: 50%;
+	}
+}
+@media (max-width: 992px)and (min-width: 768px ) {
+	.team .staff-member{
+		width: 25%;
 	}
 }

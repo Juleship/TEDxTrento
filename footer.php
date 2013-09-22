@@ -12,7 +12,7 @@
 			
 			<small>
 				<p>© TEDxTrento . This independent TEDx event is operated under license from <a href="http://www.ted.com" target="_blank">TED</a>. </p>
-				<p>Designed and developed with love by <a href="http://www.facebook.com/babbiesproduction" target="_blank">Babbies Production</a> - <a href="http://www.giuliomichelon.com" target="_blank">Giulio Michelon</a> and Leonardo Lanzinger.
+				<p>Designed and developed with love by <a href="http://www.facebook.com/babbiesproduction" target="_blank">Babbies Production</a> - <a href="http://www.giuliomichelon.com" target="_blank">Giulio Michelon</a> and <a href="http://www.linkedin.com/in/leonardolanzinger" target="_blank">Leonardo Lanzinger</a>.
 				</p>
 			</small>
 		</div>

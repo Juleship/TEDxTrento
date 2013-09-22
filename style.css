@@ -58,9 +58,12 @@ body, html{
 	padding-left: 5%;
 	padding-right: 5%;
 }
+.mobile-about .ted-title{
+	font-weight: bold;
+}
 .ted-title{
 	font-family: Helvetica, sans-serif;
-	font-weight: bold;
+	font-weight: normal;
 }
 .trento-title{
 	font-family: Helvetica, sans-serif;
