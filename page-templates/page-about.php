@@ -5,8 +5,9 @@
 ?>
 	<!-- let's talk about mobile -->
 		<div class="visible-xs mobile-about mobile">
-		<hr/>
 			<h2><span class="black"></span><span class="ted-title">TED</span></h2>
+			
+			<hr/>
 			<p>
 					TED è un’organizzazione no-profit che ha come obiettivo quello di diffondere idee che hanno valore. Iniziato come una conferenza in California in 1984, TED è cresciuta nella sua “mission” attraverso molteplici iniziative.
 				</p>
@@ -22,11 +23,13 @@
 				<p>
 					L’iniziativa TEDx offre a individui o a gruppi un modo di organizzare in modo autonomo eventi locali ispirati a TED. Più di 5.000 eventi TEDx sono stati realizzati finora e alcune presentazioni di questi sono diventate video TEDTalks. Il TED Fellows Program aiuta gli innovatori di ogni parte del mondo a diventare parte della comunità di TED e, con l’aiuto di quest’ultima, ad amplificare l’impatto dei loro progetti e attività. TED-Ed mette insieme maestri e animatori per realizzare brevi lezioni da usare in classe o autonomamente.
 				</p>
+				<hr />
 				<h2><span class="ted-title">TEDx</span></h2>
 				  <p>
 				  	Nello spirito di “idee che meritano di essere diffuse”, TEDx è una serie di eventi locali e autonomi che si propongono di riunire persone per condividere un’esperienza simile a quella che si vive con TED. Ad un’evento TEDx presentazioni dal vivo e proiezioni di video tratti da TEDTalks sono combinati per favorire relazioni e discussioni all’interno dei partecipanti. Questi eventi locali e autonomi hanno il brand TEDx, dove x sta per “evento TED organizzato in modo indipendente.” La conferenza TED da consigli generali, norme e regolamenti per il programma TEDx, ma ogni evento TEDx è organizzato in modo indipendente.
 				  </p>
-				  <h2><span class="ted-title">TEDx</span><span class="black">Trento</span></h2>
+				 <hr />
+				 <h2><span class="ted-title">TEDx</span><span class="black">Trento</span></h2>
 				  <p>
 				  	TEDxTrento è una conferenza che vede coinvolta una comunità di appassionati allo spirito del TED e utilizza lo strumento del TEDx per la diffusione delle idee. Il nostro evento vuole ispirare alle novità, promuovere l’innovazione sociale, facilitare l’incontro tra persone e gruppi per sviluppare nuovi incredibili progetti, diffondere la tematica della qualità della vita e molto altro ancora.
 				  </p>

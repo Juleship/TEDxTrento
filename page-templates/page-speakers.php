@@ -7,6 +7,10 @@
 	$postid;
 ?>
 	<div class="col-sm-12">
+		<div class="visible-xs mobile">
+				<h2><span class="ted-title">Gli speakers:</span></h2>
+				<hr />
+		</div>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<?php the_content(); ?>
 		<?php endwhile; endif; ?>
