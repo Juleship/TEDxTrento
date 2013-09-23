@@ -7,7 +7,7 @@
 	$postid;
 ?>
 	
-	<div class="col-sm-12 padded-row">
+	<div class="col-sm-12">
 		<div class="visible-xs mobile">
 				<h2><span class="ted-title">I nostri partners:</span></h2>
 			<hr />

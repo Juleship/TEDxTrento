@@ -12,7 +12,7 @@
 				<hr />
 		</div>
 		<div class="row">
-			<div class="col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3 team-intro">
+			<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 team-intro">
 				<?php
 					$getpost= get_post($postid);
 					$postcontent= $getpost->post_content;
