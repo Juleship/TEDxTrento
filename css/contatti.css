@@ -31,11 +31,11 @@
 #ninja_forms_field_7_options_span label{
 	font-weight: 200;
 }
-.contact-form{
+#ninja_forms_field_6{
 	font-size: 1.5em;
 	background-color: red;
 	color: white;
 }
-.contact-form:hover{
+#ninja_forms_field_6:hover{
 	background-color: white;
 }
