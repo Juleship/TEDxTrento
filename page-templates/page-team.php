@@ -11,7 +11,7 @@
 				<h2><span class="ted-title">Il nostro team:</span></h2>
 				<hr />
 		</div>
-		<div class="row">
+		<div class="row team-background">
 			<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 team-intro">
 				<?php
 					$getpost= get_post($postid);

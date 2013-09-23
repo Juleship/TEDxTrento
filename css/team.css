@@ -1,6 +1,9 @@
+.team-background{
+	background-image: url(../img/team_panorama.jpg);
+}
 .team-intro{
 	padding: 20px 20px 30px 35px;
-	
+	color: white;
 	font-weight: 100;
 	font-size: 20px;
 }
