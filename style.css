@@ -96,3 +96,21 @@ body, html{
 	padding-left: 120px;
 	padding-right: 120px;
 }
+.icons i{
+	color: black;
+	text-align: right;
+	font-size: 2.5em;
+}
+.icons i:hover {
+	color: red;
+}
+.icons, .wide-menu{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+}
+.icons div{
+	display: inline-block;
+	padding: 1%;
+	width: 16.5%;
+}
