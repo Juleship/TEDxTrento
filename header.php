@@ -64,7 +64,7 @@
 		
 		<!-- this is for desktop -->
 	  	<div class="header row hidden-sm hidden-xs">
-	  		<div class="col-md-9 wide-menu">
+	  		<div class="col-md-10 wide-menu">
 			  <ul class="top-navbar">
 			  	<li>
 			  		<a class="logo" href="<?php echo home_url(); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png"></a>
@@ -91,10 +91,10 @@
 			  	</li>
 			  </ul>	
 	  		</div> 
-			<div class="col-sm-2 icons text-right">
-		        <a href="mailto:info@tedxtrento.com"><div title="Mail" class="the-icons col-sm-3 col-sm-offset-2"><i class="icon-mail"></i></div></a>
-		        <a href="http://www.twitter.com/tedxtrento" target="_blank"><div title="Twitter" class="the-icons col-sm-3"><i class="icon-twitter-squared"></i></div></a>
-		        <a href="http://www.facebook.com/tedxtrento" target="_blank"><div title="Facebook" class="the-icons col-sm-3"><i class="icon-facebook-squared"></i></div></a>
+			<div class="col-sm-2 icons">
+		        <a href="mailto:info@tedxtrento.com"><i class="icon-mail"></i></a>
+		        <a href="http://www.twitter.com/tedxtrento" target="_blank"><i class="icon-twitter-squared"></i></a>
+		        <a href="http://www.facebook.com/tedxtrento" target="_blank"><i class="icon-facebook-squared"></i></a>
 			</div>
       </div>
 	  			<!--
