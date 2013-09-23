@@ -1,11 +1,18 @@
 .contatti-wrapper{
 	padding-top:2%;
-	margin-bottom: 10%;
+	padding-bottom: 30px;
 }
 .contatti-background{
+	position: relative;
 	background-image: url('../img/contacts.jpg');
 	background-position-y: center;
+	background-size: cover;
+	width: 100%;
 	margin-bottom: 20px;
+	height: inherit;
+}
+.contatti-background:after{
+	clear: both;
 }
 .contatti-intro{
 	padding: 20px 0px 30px 30px;
@@ -14,7 +21,7 @@
 	font-size:18px;
 }
 #ninja_forms_field_1_label, #ninja_forms_field_2_label, #ninja_forms_field_3_label, #ninja_forms_field_4_label, #ninja_forms_field_5_label, #ninja_forms_field_7_label, #ninja_forms_field_8_label{
-	width: 120px;
+	width: 130px;
 	font-weight: 200;
 }
 #ninja_forms_field_8{

@@ -3,16 +3,17 @@
 	*/
 	get_header(); 
 ?>
-		<div class="row contatti-background">
-			<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 contatti-intro">
-				<?php
-					while (have_posts()) : the_post();
-						the_content();
-					endwhile;
-					wp_reset_query();
-				?>
-			</div>
+	<div class="contatti-background">
+		<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 contatti-intro">
+			<?php
+				while (have_posts()) : the_post();
+					the_content();
+				endwhile;
+				wp_reset_query();
+			?>
 		</div>
+		<div class="clearfix"></div>
+	</div>
 	<div class="col-sm-8 col-sm-offset-2 contatti-wrapper">
 		<p>Segui TEDx Trento anche sui social network!</p>
 			<div class="row">
@@ -28,9 +29,6 @@
 				</div>
 			</div>
 			
-			<hr />
-			<p>Per qualsiasi altra informazione puoi contattarci via mail su <a href="mailto:info@tedxtrento.com">info@tedxtrento.com</a>
-		</p>
 	</div>
 	
 	<div class="clearfix"></div>	
