@@ -2,10 +2,10 @@
 	background-image: url('../img/team_panorama.jpg');
 }
 .team-intro{
-	padding: 20px 20px 30px 35px;
+	padding: 20px 20px 30px 20px;
 	color: white;
 	font-weight: 100;
-	font-size: 20px;
+	font-size: 18px;
 }
 .team-intro a{
 	color: #FF2B06;

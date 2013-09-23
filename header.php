@@ -1,8 +1,3 @@
-<!--
-	html includes etc etc (stylesheets etc etc)
-	navbar
--->
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -10,7 +5,8 @@
     	if ( have_posts() ) : while ( have_posts() ) : the_post(); 
     	$page_name_big = get_the_title(); 
 	    $page_name = strtolower($page_name_big);
-	    endwhile; endif; 
+	    endwhile; 
+	    endif; 
 	?>
     <title>TEDx Trento - <?php echo $page_name_big ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

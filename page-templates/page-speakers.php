@@ -2,9 +2,9 @@
 	/* Template Name: Tedx Speakers Page
 	*/
 	get_header();
-	$posttitle = 'speakers-intro';
-	$postid = $wpdb->get_var( "SELECT ID FROM $wpdb->posts WHERE post_title = '" . $posttitle . "'" );
-	$postid;
+	
+	$speaktitle = 'speakers-intro';
+	$speaktitle = $wpdb->get_var( "SELECT ID FROM $wpdb->posts WHERE post_title = '" . $speaktitle . "'" );
 ?>
 	<div class="col-sm-12">
 		<div class="visible-xs mobile">
@@ -13,15 +13,20 @@
 		</div>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<?php the_content(); ?>
-		<?php endwhile; endif; ?>
+		<?php endwhile; endif; 
+			
+	    wp_reset_query();
+		?>
 		<div style="clear: both;"></div>
 		<div class="row padded-row">
 			<div class="col-sm-8 col-sm-offset-2 speakers-intro">
 				<hr />
-				<?php
-				$getpost= get_post($postid);
-				$postcontent= $getpost->post_content;
-				echo $postcontent;
+					<?php
+					query_posts( 'p='.$speaktitle );
+					while (have_posts()) : the_post();
+						the_content();
+					endwhile;
+					wp_reset_query();
 				?>
 			</div>
 		</div>

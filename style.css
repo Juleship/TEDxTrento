@@ -43,7 +43,7 @@ body, html{
 	/* min-height: 300px; */	/* why? */
 }
 .wrapper p{
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 200;
 }
 .wrapper a{
@@ -66,6 +66,10 @@ body, html{
 }
 .mobile-about .ted-title{
 	font-weight: bold;
+	font-size: 35px;
+}
+.trento{
+	font-size: 35px;
 }
 .ted-title{
 	font-family: Helvetica, sans-serif;
@@ -87,4 +91,8 @@ body, html{
 .padded-row{
 	padding-left: 20px;
 	padding-right: 20px;
+}
+.sponsors-padded-row{
+	padding-left: 120px;
+	padding-right: 120px;
 }
