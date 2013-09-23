@@ -32,7 +32,7 @@
 	font-weight: 200;
 }
 #ninja_forms_field_6{
-	font-size: 1.5em;
+	font-size: 2em;
 	background-color: red;
 	color: white;
 	  display: inline-block;
@@ -56,4 +56,5 @@
 }
 #ninja_forms_field_6:hover{
 	background-color: white;
+	color: black;
 }
