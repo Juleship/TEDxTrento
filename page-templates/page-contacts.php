@@ -3,14 +3,17 @@
 	*/
 	get_header(); 
 ?>
+		<div class="row contatti-background">
+			<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 contatti-intro">
+				<?php
+					while (have_posts()) : the_post();
+						the_content();
+					endwhile;
+					wp_reset_query();
+				?>
+			</div>
+		</div>
 	<div class="col-sm-8 col-sm-offset-2 contatti-wrapper">
-		<?php
-			while (have_posts()) : the_post();
-				the_content();
-			endwhile;
-			wp_reset_query();
-		?>
-		<hr />
 		<p>Segui TEDx Trento anche sui social network!</p>
 			<div class="row">
 				<div class="col-sm-6">

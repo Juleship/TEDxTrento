@@ -2,3 +2,25 @@
 	padding-top:2%;
 	margin-bottom: 10%;
 }
+.contatti-background{
+	background-image: url('../img/contacts.jpg');
+	background-position-y: center;
+	margin-bottom: 20px;
+}
+.contatti-intro{
+	padding: 20px 0px 30px 30px;
+	color: white;
+	font-weight: 100;
+	font-size:18px;
+}
+#ninja_forms_field_1_label, #ninja_forms_field_2_label, #ninja_forms_field_3_label, #ninja_forms_field_4_label, #ninja_forms_field_5_label, #ninja_forms_field_7_label, #ninja_forms_field_8_label{
+	width: 120px;
+	font-weight: 200;
+}
+#ninja_forms_field_8{
+	width: 60%;
+	height: 200px;
+}
+#ninja_forms_field_7_options_span label{
+	font-weight: 200;
+}
