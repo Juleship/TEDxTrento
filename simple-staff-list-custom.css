@@ -151,7 +151,7 @@
 	color: #FF2B06;
 }
 .partners h3{
-	margin: 0;
+	display: none;
 }
 .partners .staff-img img{
 	vertical-align: middle;
@@ -161,14 +161,14 @@
 		width: 50%;
 	}
 	.partners .staff-img{
-		min-height: 230px;
-		line-height: 230px;
+		min-height: 200px;
+		line-height: 200px;
 	}
 }
 @media (min-width: 768px ) {
 	.partners .staff-img{
-		min-height: 200px;
-		line-height: 200px;
+		min-height: 160px;
+		line-height: 160px;
 	}
 }
 

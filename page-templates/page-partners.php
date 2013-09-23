@@ -36,7 +36,7 @@
 				<?php
 					$partnersoutro = 'partners-outro';
 					$partnersoutro = $wpdb->get_var( "SELECT ID FROM $wpdb->posts WHERE post_title = '" . $partnersoutro . "'" );
-					query_posts( 'p='.$partnersoutro);
+					query_posts( 'p='.'113');
 					while (have_posts()) : the_post();
 						the_content();
 					endwhile;
