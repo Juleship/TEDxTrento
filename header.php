@@ -17,7 +17,11 @@
     <link href="<?php bloginfo( 'template_url' ); ?>/css/header.css" rel="stylesheet" media="screen">
     <!-- G font -->
     <link href='http://fonts.googleapis.com/css?family=Raleway:200,500' rel='stylesheet' type='text/css'>
-
+    <!-- fontello -->
+    <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/fontello.css">
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/fontello-ie7.css"><![endif]-->
+    
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../../assets/js/html5shiv.js"></script>
@@ -30,9 +34,6 @@
   </head>
 
   <body>
-  	<!-- Facebook stuff, i don't really get it to be honest -->
-  	<div id="fb-root"></div>
-
 		<div class="top-red"></div>
 		<!-- let's get some mobile -->
 			<nav class="navbar navbar-default visible-sm visible-xs" role="navigation">
@@ -63,7 +64,7 @@
 		
 		<!-- this is for desktop -->
 	  	<div class="header row hidden-sm hidden-xs">
-	  		<div class="col-md-12">
+	  		<div class="col-md-9 wide-menu">
 			  <ul class="top-navbar">
 			  	<li>
 			  		<a class="logo" href="<?php echo home_url(); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png"></a>
@@ -89,7 +90,13 @@
 			  		<a href="?page_id=15">Contatti</a>
 			  	</li>
 			  </ul>	
-	  		</div>
+	  		</div> 
+			<div class="col-sm-2 icons text-right">
+		        <a href="mailto:info@tedxtrento.com"><div title="Mail" class="the-icons col-sm-3 col-sm-offset-2"><i class="icon-mail"></i></div></a>
+		        <a href="http://www.twitter.com/tedxtrento" target="_blank"><div title="Twitter" class="the-icons col-sm-3"><i class="icon-twitter-squared"></i></div></a>
+		        <a href="http://www.facebook.com/tedxtrento" target="_blank"><div title="Facebook" class="the-icons col-sm-3"><i class="icon-facebook-squared"></i></div></a>
+			</div>
+      </div>
 	  			<!--
 		  
 	  		<div class="col-sm-2">
