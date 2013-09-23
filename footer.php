@@ -34,7 +34,7 @@
 -->
 	<!-- Facebook like plug-in -->
 	<div id="fb-root"></div>
-<div id="fb-root"></div>
+	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
 	  if (d.getElementById(id)) return;
@@ -62,8 +62,10 @@
     	echo "<script>$('#nav-".$page_name."').addClass('active');
     	$('.top-navbar').find('.".$page_name."').addClass('active-bignav');</script>";
     ?>
-	<script>
+	<!--
+<script>
 		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 	</script>
+-->
   </body>
 </html>
