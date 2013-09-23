@@ -11,6 +11,15 @@
 				<h2><span class="ted-title">Il nostro team:</span></h2>
 				<hr />
 		</div>
+		<div class="row">
+			<div class="col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3 team-intro">
+				<?php
+					$getpost= get_post($postid);
+					$postcontent= $getpost->post_content;
+					echo $postcontent;
+				?>
+			</div>
+		</div>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<?php the_content(); ?>
 		<?php endwhile; endif; ?>

@@ -1,0 +1,12 @@
+.team-intro{
+	padding: 20px 20px 30px 20px;
+	
+	font-weight: 100;
+	font-size: 16px;
+}
+.team-intro a{
+	color: #FF2B06;
+}
+.team-intro h3{
+	font-size: 18px;
+}
