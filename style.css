@@ -142,3 +142,13 @@ body, html{
 .ticket-form input{
 	margin: 10px;
 }
+.row-404{
+	height: 300px;
+}
+.tia-padded{
+	padding: 50px 20px;
+}
+.tia-padded p{
+	line-height: 1.5;
+	text-shadow: 1px 1px 1px #333;
+}
