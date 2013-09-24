@@ -165,6 +165,9 @@ body, html{
 .row-404{
 	height: 300px;
 }
+.row-press{
+	height: 100px;
+}
 .row-404 a{
 	color: #ffffa3;
 }
