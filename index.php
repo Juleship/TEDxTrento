@@ -30,7 +30,7 @@
 		<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 partners-intro index-padding text-center">
 			<h2>Mancano ancora</h2>
 			<p>
-				Un tot di ore minuti giorni roba
+				10 giorni 8 ore 20 minuti 30 secondi
 			</p>
 			<h2>a TEDxTrento</h2>
 		</div>
