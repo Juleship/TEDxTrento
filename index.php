@@ -2,8 +2,8 @@
 
 
 	<div class="row home-row home-background">
-		<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 partners-intro index-padding text-center">
-			<h2 class="main-title">Sai cos'é TEDx Trento?</h2>
+		<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 partners-intro index-padding tia-padded text-center">
+			<h2 class="main-title">Sai cos'é TEDxTrento?</h2>
 			<p>
 				Il 23/11 si terrà a Trento uno degli eventi più rivoluzionari della storia dell'umanità. Non sarà solo una conferenza ma una vera e propria fucina di idee. Come puoi mancare?
 			</p>
