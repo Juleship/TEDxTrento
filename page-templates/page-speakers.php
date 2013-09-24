@@ -11,12 +11,14 @@
 				<h2><span class="ted-title">Gli speakers:</span></h2>
 				<hr />
 		</div>
+		<div class="col-sm-10 col-md-10 col-sm-offset-1 col-md-offset-1">
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<?php the_content(); ?>
 		<?php endwhile; endif; 
 			
 	    wp_reset_query();
 		?>
+		</div>
 		<div style="clear: both;"></div>
 		<div class="row padded-row">
 			<div class="col-sm-8 col-sm-offset-2 speakers-intro">

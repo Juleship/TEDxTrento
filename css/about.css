@@ -17,6 +17,10 @@
 #about-tab p{
 	margin: 0;
 }
+.tab-content p, .mobile-about p{
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 300;
+}
 .ted-logo{
 	font-family: 'Helvetica', sans-serif;
 	font-size: 25px;
