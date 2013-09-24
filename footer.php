@@ -1,5 +1,6 @@
 	</div>
 	<div class="top-red"></div>
+	
 	<div class="footer-wrap" id="foot">
 		<div class="col-md-8 col-sm-12 col-md-offset-2 footer-grey footer">
 			<img src="<?php bloginfo( 'template_url' );?>/img/small-logo.png" class="footer-logo"/>
