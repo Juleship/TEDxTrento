@@ -6,13 +6,14 @@
     	$page_name_big = get_the_title(); 
 	    $page_name = strtolower($page_name_big);
 	    if (is_home())
-	    	$page_name_big = 'Homepage';
+	    	$page_name_big = 'Qualità della vita';
 	    endwhile; 
 	    endif; 
 	?>
     <title>TEDx Trento - <?php echo $page_name_big ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="TEDxTrento official website.">
+    <meta name="keywords" content="TEDx, TED, Trento, TEDxTrento, Technology, Entratainment, Design, qualità della vita">
     <!-- Bootstrap -->
     <link href="<?php bloginfo( 'template_url' ); ?>/css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="<?php bloginfo( 'template_url' ); ?>/style.css" rel="stylesheet" media="screen">
