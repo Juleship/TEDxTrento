@@ -31,10 +31,18 @@
 			<h2>Mancano ancora</h2>
 			<div>
 				<ul class="clock">
-					<li><input class="knob knob-day" data-fgColor="#222222" data-thickness=.1 data-width="100%" data-readOnly=true data-displayInput=true value="36"></li>
-					<li><input class="knob knob-hour" data-thickness=.1 data-width="100%" data-readOnly=true data-displayInput=true value="35"></li>
-					<li><input class="knob knob-minute" data-thickness=.1 data-width="100%" data-readOnly=true data-displayInput=true value="35"></li>
-					<li><input class="knob knob-second" data-thickness=.1 data-width="100%" data-readOnly=true data-displayInput=true value="35"></li>
+					<li><input class="knob knob-day" data-fgColor="darkred" data-linecap=round data-min="0" data-max="60" data-thickness=.1 data-width="100%" data-readOnly=true data-displayInput=true value="36">
+						GIORNI
+					</li>
+					<li><input class="knob knob-hour" data-fgColor="darkred" data-min="0" data-max="24" data-linecap=round data-thickness=.1 data-width="100%" data-readOnly=true data-displayInput=true value="2">
+						ORE
+					</li>
+					<li><input class="knob knob-minute" data-fgColor="darkred" data-min="0" data-max="60" data-linecap=round data-thickness=.1 data-width="100%" data-readOnly=true data-displayInput=true value="35">
+						MINUTI
+					</li>
+					<li><input class="knob knob-second" data-fgColor="darkred" data-min="0" data-max="60" data-linecap=round data-thickness=.1 data-width="100%" data-readOnly=true data-displayInput=true value="35">
+						SECONDI
+					</li>
 				</ul>
 			</div>
 			<h2>a TEDxTrento</h2>

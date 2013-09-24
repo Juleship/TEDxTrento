@@ -176,15 +176,21 @@ body, html{
 	margin-right: 0;
 }
 .clock li{
+	font-family: 'Raleway', 'Helvetica', sans-serif;
+	opacity: 0.8;
 	display: inline-block;
 	width: 24%;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-size: 16pt;
+	padding-right: 5px;
+	padding-left: 5px;
 }
 .clock{
+	margin-top: 60px;
+	margin-bottom: 40px;
 	padding-left:0px;
-	margin: 0;
 	display: block;
 	width: 100%;
 }
