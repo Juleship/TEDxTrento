@@ -12,7 +12,7 @@
 	</div>
 	
 	<div class="row home-row">			
-		<div id="tickets" class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 text-center index-padding">
+		<div id="tickets" class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 text-center index-big-padding">
 			<p>
 				Prenota i biglietti per l'evento:
 			</p>
@@ -21,7 +21,7 @@
 				cognome:<input></input>
 				e-mail:<input></input>
 				<br />
-				<button class="btn btn-default">PRENOTA</button>
+				<button class="btn btn-default babbies-button">PRENOTA</button>
 			</div>
 		</div>
 	</div>

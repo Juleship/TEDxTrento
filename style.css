@@ -136,6 +136,10 @@ body, html{
 	padding-top: 3%;
 	padding-bottom:3%;
 }
+.index-big-padding{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
 .normal-padding{
 	padding-left: 3%;
 	padding-right: 3%;
@@ -187,4 +191,35 @@ body, html{
 	margin: 0;
 	display: block;
 	width: 100%;
+}
+.babbies-button{
+	font-size: 2em;
+	background-color: red;
+	color: white;
+	  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  border-color: #cccccc;
+}
+.babbies-button:hover{
+	background-color: white;
+	color: black;
+}
+#tickets p{
+	font-size: 20px;
+	font-weight: 400;
 }
