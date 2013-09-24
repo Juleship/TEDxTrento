@@ -187,9 +187,12 @@ body, html{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-size: 16pt;
+	list-style: none;
+	font-size: 16pt;/*
+
 	padding-right: 5px;
 	padding-left: 5px;
+*/
 }
 .clock{
 	margin-top: 60px;
