@@ -16,6 +16,7 @@
     <meta name="keywords" content="TEDx, TED, Trento, TEDxTrento, Technology, Entratainment, Design, qualità della vita">
     <!-- Bootstrap -->
     <link href="<?php bloginfo( 'template_url' ); ?>/css/bootstrap.css" rel="stylesheet" media="screen">
+    <!-- custom css -->
     <link href="<?php bloginfo( 'template_url' ); ?>/style.css" rel="stylesheet" media="screen">
     <link href="<?php bloginfo( 'template_url' ); ?>/css/<?php echo $page_name ?>.css" rel="stylesheet" media="screen">
     <link href="<?php bloginfo( 'template_url' ); ?>/css/header.css" rel="stylesheet" media="screen">
@@ -23,6 +24,7 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:200,500' rel='stylesheet' type='text/css'>
     <!-- fontello -->
     <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/fontello.css">
+    
     <!--[if IE 7]>
     <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/fontello-ie7.css"><![endif]-->
     
@@ -35,6 +37,7 @@
     <?php
 		wp_head();
 	?>
+	
   </head>
 
   <body>

@@ -61,6 +61,15 @@
     <script src="<?php bloginfo( 'template_url' ); ?>/js/functions.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/plugins/CircleHoverEffects/js/modernizr.custom.79639.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.knob.js"></script>
+    
+    
+    <script>
+$(function() {
+    $(".knob").knob();
+});
+</script>
+    
+    
     <?php 
     	echo "<script>$('#nav-".$page_name."').addClass('active');
     	$('.top-navbar').find('.".$page_name."').addClass('active-bignav');</script>";

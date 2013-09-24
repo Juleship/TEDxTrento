@@ -29,9 +29,14 @@
 	<div class="row home-row bottom-home-background negative-bottom">
 		<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 partners-intro index-padding text-center">
 			<h2>Mancano ancora</h2>
-			<p>
-				10 giorni 8 ore 20 minuti 30 secondi
-			</p>
+			<div>
+				<ul class="clock">
+					<li><input class="knob knob-day" data-fgColor="#222222" data-thickness=.1 data-width="100%" data-readOnly=true data-displayInput=true value="36"></li>
+					<li><input class="knob knob-hour" data-thickness=.1 data-width="100%" data-readOnly=true data-displayInput=true value="35"></li>
+					<li><input class="knob knob-minute" data-thickness=.1 data-width="100%" data-readOnly=true data-displayInput=true value="35"></li>
+					<li><input class="knob knob-second" data-thickness=.1 data-width="100%" data-readOnly=true data-displayInput=true value="35"></li>
+				</ul>
+			</div>
 			<h2>a TEDxTrento</h2>
 		</div>
 		<div class="clearfix"></div>
