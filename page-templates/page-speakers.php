@@ -21,7 +21,7 @@
 		</div>
 		<div style="clear: both;"></div>
 		<div class="row padded-row">
-			<div class="col-sm-8 col-sm-offset-2 speakers-intro">
+			<div class="col-sm-8 col-sm-offset-2 speakers-intro helveticize">
 				<hr />
 					<?php
 					query_posts( 'p='.$speaktitle );

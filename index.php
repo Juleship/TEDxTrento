@@ -13,7 +13,15 @@
 	
 	<div class="row">			
 		<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 text-center buy-tickets">
-			<button class="btn btn-default">COMPRA I BIGLIETTI</button>
+			<p>
+				Prenota i biglietti per l'evento:
+			</p>
+			<div class="ticket-form">
+				Nome:<input></input>
+				Cognome:<input></input>
+				<br />
+				<button class="btn btn-default">COMPRA I BIGLIETTI</button>
+			</div>
 		</div>
 	</div>
 	

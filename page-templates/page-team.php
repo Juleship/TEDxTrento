@@ -33,7 +33,7 @@
 		</div>
 		<div style="clear: both; height: 80px;"></div>
 		<div class="row">
-			<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 team-outro">
+			<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 team-outro helveticize">
 				<?php
 					query_posts( 'p='.$teamoutro);
 					while (have_posts()) : the_post();

@@ -17,6 +17,7 @@
     <link href="<?php bloginfo( 'template_url' ); ?>/css/header.css" rel="stylesheet" media="screen">
     <!-- G font -->
     <link href='http://fonts.googleapis.com/css?family=Raleway:200,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
     <!-- fontello -->
     <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/fontello.css">
     <!--[if IE 7]>
