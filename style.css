@@ -112,3 +112,26 @@ body, html{
 .icons div{
 	display: inline-block;
 }
+.home-background{
+	background-position-y: bottom;
+	-moz-background-position-y: bottom;
+	color: white;
+	background-size: cover;
+	background-image: url(img/home-text.jpg);
+}
+.home-background h2, .bottom-home-background h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+}
+.main-title{
+	font-size: 4em;
+}
+.buy-tickets, .home-background, .bottom-home-background{
+	padding-top: 3%;
+	padding-bottom:3%;
+}
+.bottom-home-background{
+	background-size: cover;
+	color: white;
+	background-image: url(img/home-bottom.jpg);
+}
