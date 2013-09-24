@@ -12,10 +12,16 @@
 
 ?>
 	<!-- let's talk about mobile -->
-		<div class="visible-xs mobile-about mobile">
+			<div class="visible-xs mobile">
+					<h2><span class="ted-title">Che cos'è?</span></h2>
+					<hr />
+			</div>
+			
+			<div class="visible-xs mobile-about mobile">
 			<h2><span class="black"></span><span class="ted-title">TED</span></h2>
 			
 			<hr/>
+				<img src="<?php bloginfo( 'template_url' ); ?>/img/about_ted.jpg" style="width: 100%;">
 			<?php
 					query_posts( 'p='.$aboutted );
 					while (have_posts()) : the_post();
@@ -25,6 +31,7 @@
 				?>
 				<hr />
 				<h2><span class="ted-title">TEDx</span></h2>
+					<img src="<?php bloginfo( 'template_url' ); ?>/img/about_tedx.jpg" style="width: 100%;">
 				  <?php
 					query_posts( 'p='.$abouttedx );
 					while (have_posts()) : the_post();
@@ -34,6 +41,7 @@
 				?>
 				 <hr />
 				 <h2><span class="ted-title">TEDx</span><span class="trento black">Trento</span></h2>
+				 <img src="<?php bloginfo( 'template_url' ); ?>/img/about_tedxtrento.jpg" style="width: 100%;">
 				  <?php
 					query_posts( 'p='.$abouttedxtrento );
 					while (have_posts()) : the_post();
