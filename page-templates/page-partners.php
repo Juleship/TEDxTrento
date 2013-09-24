@@ -12,7 +12,7 @@
 			<hr />
 		</div>
 		<div class="row partners-background">
-			<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 partners-intro">
+			<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 partners-intro ">
 				<?php
 					query_posts( 'p='.$partnersintro );
 					while (have_posts()) : the_post();
@@ -32,7 +32,7 @@
 		<div style="clear:both;">
 		</div>
 		<div class="row">
-			<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 partners-outro">
+			<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 partners-outro helveticize">
 				<?php
 					$partnersoutro = 'partners-outro';
 					$partnersoutro = $wpdb->get_var( "SELECT ID FROM $wpdb->posts WHERE post_title = '" . $partnersoutro . "'" );

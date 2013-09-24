@@ -5,6 +5,8 @@
     	if ( have_posts() ) : while ( have_posts() ) : the_post(); 
     	$page_name_big = get_the_title(); 
 	    $page_name = strtolower($page_name_big);
+	    if (is_home())
+	    	$page_name_big = 'Homepage';
 	    endwhile; 
 	    endif; 
 	?>

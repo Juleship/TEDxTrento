@@ -135,3 +135,10 @@ body, html{
 	color: white;
 	background-image: url(img/home-bottom.jpg);
 }
+.helveticize{
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 200;
+}
+.ticket-form input{
+	margin: 10px;
+}
