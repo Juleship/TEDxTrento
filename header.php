@@ -5,6 +5,8 @@
     	if ( have_posts() ) : while ( have_posts() ) : the_post(); 
     	$page_name_big = get_the_title(); 
 	    $page_name = strtolower($page_name_big);
+	    if (is_home())
+	    	$page_name_big = 'Homepage';
 	    endwhile; 
 	    endif; 
 	?>
@@ -17,7 +19,6 @@
     <link href="<?php bloginfo( 'template_url' ); ?>/css/header.css" rel="stylesheet" media="screen">
     <!-- G font -->
     <link href='http://fonts.googleapis.com/css?family=Raleway:200,500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
     <!-- fontello -->
     <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/fontello.css">
     <!--[if IE 7]>
