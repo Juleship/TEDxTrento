@@ -44,22 +44,11 @@ $(function(){
 		timestamp	: ts,
 		callback	: function(days, hours, minutes, seconds){
 			
-			$('.knob-day').data('value', days);
-			
-			var message = "";
-			
-			message += days + " day" + ( days==1 ? '':'s' ) + ", ";
-			message += hours + " hour" + ( hours==1 ? '':'s' ) + ", ";
-			message += minutes + " minute" + ( minutes==1 ? '':'s' ) + " and ";
-			message += seconds + " second" + ( seconds==1 ? '':'s' ) + " ";
-			
-			if(TedxTN){
-				message += "left until TedxTrento!";
-			}
-			else {
-				message += "!";
-			}
-		}
+			$('.knob-day').val(days).trigger("change");
+			$('.knob-hour').val(hours).trigger("change");
+			$('.knob-minute').val(minutes).trigger("change");
+			$('.knob-second').val(seconds).trigger("change");
+					}
 	});
 	
 });
