@@ -13,7 +13,7 @@
 				<hr />
 		</div>
 		<div class="row team-background">
-			<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 team-intro">
+			<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 team-intro tia-padded helveticize">
 				<?php
 					query_posts( 'p='.$teamintro );
 					while (have_posts()) : the_post();
