@@ -44,6 +44,8 @@ $(function(){
 		timestamp	: ts,
 		callback	: function(days, hours, minutes, seconds){
 			
+			$('.knob-day').data('value', days);
+			
 			var message = "";
 			
 			message += days + " day" + ( days==1 ? '':'s' ) + ", ";
