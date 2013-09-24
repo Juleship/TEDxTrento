@@ -144,6 +144,8 @@ body, html{
 	background-size: cover;
 	color: white;
 	background-image: url(img/home-bottom.jpg);
+}
+.negative-bottom{
 	margin-bottom: -60px;
 }
 .center-home-background{
@@ -158,6 +160,9 @@ body, html{
 }
 .row-404{
 	height: 300px;
+}
+.row-404 a{
+	color: #ffffa3;
 }
 .tia-padded{
 	padding: 50px 20px;

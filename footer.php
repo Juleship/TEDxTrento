@@ -56,8 +56,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<?php bloginfo( 'template_url' ); ?>/js/bootstrap.min.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/js/tab.js"></script>
-    <script src="<?php bloginfo( 'template_url' ); ?>/js/functions.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/js/about.js"></script>
+    <script src="<?php bloginfo( 'template_url' ); ?>/js/countdown.js"></script>
+    <script src="<?php bloginfo( 'template_url' ); ?>/js/functions.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/plugins/CircleHoverEffects/js/modernizr.custom.79639.js"></script>
     <?php 
     	echo "<script>$('#nav-".$page_name."').addClass('active');

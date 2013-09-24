@@ -26,7 +26,7 @@
 		</div>
 	</div>
 	
-	<div class="row home-row bottom-home-background">
+	<div class="row home-row bottom-home-background negative-bottom">
 		<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 partners-intro index-padding text-center">
 			<h2>Mancano ancora</h2>
 			<p>
