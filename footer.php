@@ -3,7 +3,10 @@
 	
 	<div class="footer-wrap" id="foot">
 		<div class="col-md-10 col-sm-12 col-md-offset-1 footer-grey footer">
+			
+			<div class="text-center" style="padding-top: 20px;"><p><a href="press">| Press |</a></p></div>
 			<img src="<?php bloginfo( 'template_url' );?>/img/small-logo.png" class="footer-logo"/>
+				
 			<div class="hidden-sm hidden-xs">
 				<small>
 					<p>What is <a href="http://www.ted.com/tedx">TEDx</a>?</p> 
