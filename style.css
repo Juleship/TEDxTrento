@@ -35,7 +35,10 @@ Text Domain: tedxtrento
 	margin: 10px 0px 20px 0px;
 }
 body, html{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Helvetica', sans-serif;
+}
+.top-navbar, h3, h2, h1{
+	font-family: 'Raleway', 'Helvetica', sans-serif;
 }
 .wrapper{
 	position: relative;
@@ -80,6 +83,9 @@ body, html{
 	text-transform: capitalize;
 	font-variant: small-caps;
 	color:#FF2B06;
+}
+.text-left p{
+	text-align: left;
 }
 .trento-title{
 	font-family: Helvetica, sans-serif;
@@ -138,7 +144,6 @@ body, html{
 	background-image: url(img/press.jpg);
 }
 .home-background h2, .bottom-home-background h2, .press-background h2{
-	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
 }
 .main-title{
@@ -201,7 +206,7 @@ body, html{
 	margin-right: 0;
 }
 .clock li{
-	font-family: 'Raleway', 'Helvetica', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 /* 	opacity: 0.8; */
 	display: inline-block;
 	width: 24%;

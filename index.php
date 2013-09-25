@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php get_header(); 
+	
+	$hometitle = 'homepage-paragraph';
+	$hometitle = $wpdb->get_var( "SELECT ID FROM $wpdb->posts WHERE post_title = '" . $hometitle . "'" );
+?>
 
 
 	<div class="row home-row home-background">
@@ -8,7 +12,7 @@
 				Il 23/11 si terrà a Trento uno degli eventi più rivoluzionari della storia dell'umanità. Non sarà solo una conferenza ma una vera e propria fucina di idee. Come puoi mancare?
 			</p>
 			<hr />
-			<h2><strong>23 Novembre 2013</strong><br>segna la data in agenda!</h2>
+			<h2><strong>23 Novembre 2013<br>• Teatro Sociale di Trento •</strong></h2>
 			
 			<a href="http://www.boxol.it/PrimiAllaPrima/IT/PrimiAllaPrima-dettaglio-evento.aspx?E=78657"><button class="btn btn-default babbies-button">Acquista i biglietti<img src="<?php bloginfo( 'template_url' ); ?>/img/primi_alla_prima.png" /></button></a>
 		</div>
@@ -17,12 +21,15 @@
 	<div class="row home-row">			
 		<div id="tickets" class="col-sm-10 col-sm-offset-1 text-center index-big-padding">
 			
-			<div class="col-md-5">
-				<p class="text-left">
-					Enthusiastically monetize integrated models via high standards in process improvements. Proactively empower one-to-one applications and backend customer service and a <a href="">hyper-link</a> here.</p>
-				<p class="text-left">
-					Energistically reinvent holistic products without customer directed potentialities. And something else here to say hello goodbye and something else again and again.
-				</p>
+			<div class="col-md-5 text-left">
+					<?php
+						query_posts( 'p='.$hometitle );
+						while (have_posts()) : the_post();
+							the_content();
+						endwhile;
+						wp_reset_query();
+					?>				
+				
 			</div>
 			<div class="col-md-7">
 				<img class="youtube" src="<?php bloginfo('template_url'); ?>/img/youtube.jpg" />
