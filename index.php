@@ -48,6 +48,7 @@
 					<li><input class="knob knob-second" data-fgColor="#FF2B06" data-min="0" data-max="60" data-linecap=round data-thickness=.1 data-width="100%" data-readOnly=true data-displayInput=true value="35">
 						SECONDI
 					</li>
+					<div class="clearfix"></div>
 				</ul>
 			</div>
 			<h2>a TEDxTrento</h2>
