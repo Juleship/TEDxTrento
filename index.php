@@ -25,8 +25,9 @@
 				</p>
 			</div>
 			<div class="col-sm-7">
-				<iframe width="100%" height="300px" src="//www.youtube.com/embed/p7O9O6Tzp6A" frameborder="0" allowfullscreen></iframe>
+				<iframe width="640" height="430" src="//www.youtube.com/embed/p7O9O6Tzp6A" frameborder="0" allowfullscreen></iframe>
 			</div>
+			<div class="clearfix"></div>
 		</div>
 	</div>
 	
