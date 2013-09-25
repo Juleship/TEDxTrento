@@ -18,7 +18,7 @@ function mt_add_pages() {
     add_management_page( __('Test Tools','menu-test'), __('Test Tools','menu-test'), 'manage_options', 'testtools', 'mt_tools_page');
 
     // Add a new top-level menu (ill-advised):
-    add_menu_page(__('TedxTN How-to','menu-test'), __('TedxTN How-to','menu-test'), 'manage_options', 'mt-top-level-handle', 'mt_toplevel_page' );
+    add_menu_page(__('TedxTN Istruzioni','menu-test'), __('TedxTN Istruzioni','menu-test'), 'manage_options', 'mt-top-level-handle', 'mt_toplevel_page' );
 
 }
 
