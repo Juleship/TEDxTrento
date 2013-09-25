@@ -7,9 +7,9 @@
 
 	<div class="row home-row home-background">
 		<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 partners-intro index-padding tia-padded text-center">
-			<h2 class="main-title">Sai cos'é TEDxTrento?</h2>
+			<h2 class="main-title"><span class="big-tedx">TEDx</span> sbarca a Trento!</h2>
 			<p>
-				Il 23/11 si terrà a Trento uno degli eventi più rivoluzionari della storia dell'umanità. Non sarà solo una conferenza ma una vera e propria fucina di idee. Come puoi mancare?
+				Menti brillanti, progetti innovativi, idee creative e tanta passione renderanno la prima edizione di TEDxTrento un momento davvero unico. Non sarà solo una conferenza, ma una vera e propria fucina di idee.<br />Come puoi mancare?
 			</p>
 			<hr />
 			<h2><strong>23 Novembre 2013<br>• Teatro Sociale di Trento •</strong></h2>
@@ -20,7 +20,6 @@
 	
 	<div class="row home-row">			
 		<div id="tickets" class="col-sm-10 col-sm-offset-1 text-center index-big-padding">
-			
 			<div class="col-md-5 text-left">
 					<?php
 						query_posts( 'p='.$hometitle );

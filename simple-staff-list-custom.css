@@ -49,6 +49,9 @@
 		height: 140px;
 	}
 }
+.speakers h3{
+	font-weight: 500;
+}
 .speakers .no-speakers{
 	display: none;
 }

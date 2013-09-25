@@ -26,7 +26,6 @@ $('#about-tab a').hover(function(e){
 });
 
 /* countdown */
-
 $(function(){
 	
 	var note = $('#note'),

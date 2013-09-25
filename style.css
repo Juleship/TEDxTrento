@@ -37,7 +37,7 @@ Text Domain: tedxtrento
 body, html{
 	font-family: 'Helvetica', sans-serif;
 }
-.top-navbar, h3, h2, h1{
+.top-navbar, h3, h2, h1, .raleway{
 	font-family: 'Raleway', 'Helvetica', sans-serif;
 }
 .wrapper{
@@ -136,6 +136,9 @@ body, html{
 	background-size: cover;
 	background-image: url(img/home-text.jpg);
 }
+.home-background  .partners-intro p{
+	font-size: 24px;
+}
 .press-background{
 	background-position-y: bottom;
 	-moz-background-position-y: bottom;
@@ -149,9 +152,18 @@ body, html{
 .main-title{
 	font-size: 4em;
 }
+.big-tedx{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	color: #FF2B06;
+}
 @media (max-width: 768px){
 	.main-title{
 	font-size: 3em;
+	}
+	.big-tedx{
+		font-size: 1em;
 	}
 }
 .index-padding{
@@ -205,6 +217,14 @@ body, html{
 	margin-left: 0;
 	margin-right: 0;
 }
+#tickets p {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.clock div div{
+	display: inline-block;
+}
 .clock li{
 	font-family: 'Helvetica', sans-serif;
 /* 	opacity: 0.8; */
@@ -220,12 +240,16 @@ body, html{
 	padding-left: 5px;
 */
 }
+.partners-intro p{
+	font-size: 25px;
+}
 .clock{
 	margin-top: 60px;
 	margin-bottom: 40px;
 	padding-left:0px;
 	display: block;
 	width: 102%;
+	display: inline-block;
 }
 .babbies-button{
 	font-size: 2em;
@@ -259,8 +283,4 @@ body, html{
 	background-color: white;
 	color: black;
   opacity: 0.9;
-}
-#tickets p{
-	font-size: 20px;
-	font-weight: 300;
 }

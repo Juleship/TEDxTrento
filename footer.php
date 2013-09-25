@@ -61,16 +61,21 @@
     <script src="<?php bloginfo( 'template_url' ); ?>/js/tab.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/js/about.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/js/countdown.js"></script>
+    <script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.knob.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/js/functions.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/plugins/CircleHoverEffects/js/modernizr.custom.79639.js"></script>
-    <script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.knob.js"></script>
     
     
     <script>
-$(function() {
-    $(".knob").knob();
-});
-</script>
+		$(function() {
+		    $(".knob").knob();
+		});
+	</script>
+	<script>
+		$(window).ready(function(){
+			$('.clock').find('div').css('display','inline-block');
+		});
+	</script>
     
     
     <?php 
