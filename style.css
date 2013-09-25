@@ -110,6 +110,11 @@ body, html{
 .icons i:hover {
 	color: red;
 }
+.home-row .youtube{
+	width: 90%;
+	display: block;
+	text-align: left;
+}
 .icons, .wide-menu{
 	padding-left: 0px;
 	padding-right: 0px;
@@ -125,12 +130,24 @@ body, html{
 	background-size: cover;
 	background-image: url(img/home-text.jpg);
 }
+.press-background{
+	background-position-y: bottom;
+	-moz-background-position-y: bottom;
+	color: white;
+	background-size: cover;
+	background-image: url(img/press.jpg);
+}
 .home-background h2, .bottom-home-background h2{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
 }
 .main-title{
 	font-size: 4em;
+}
+@media (max-width: 768px){
+	.main-title{
+	font-size: 3em;
+	}
 }
 .index-padding{
 	padding-top: 3%;
@@ -166,7 +183,8 @@ body, html{
 	height: 300px;
 }
 .row-press{
-	height: 100px;
+	height: 160px;
+	padding-top: 20px;
 }
 .row-404 a{
 	color: #ffffa3;

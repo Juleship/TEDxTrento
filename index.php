@@ -17,16 +17,17 @@
 	<div class="row home-row">			
 		<div id="tickets" class="col-sm-10 col-sm-offset-1 text-center index-big-padding">
 			
-			<div class="col-sm-5">
+			<div class="col-md-5">
 				<p class="text-left">
 					Enthusiastically monetize integrated models via high standards in process improvements. Proactively empower one-to-one applications and backend customer service and a <a href="">hyper-link</a> here.</p>
 				<p class="text-left">
 					Energistically reinvent holistic products without customer directed potentialities. And something else here to say hello goodbye and something else again and again.
 				</p>
 			</div>
-			<div class="col-sm-7">
-				<iframe width="100%" height="300px" src="//www.youtube.com/embed/p7O9O6Tzp6A" frameborder="0" allowfullscreen></iframe>
+			<div class="col-md-7">
+				<img class="youtube" src="<?php bloginfo('template_url'); ?>/img/youtube.jpg" />
 			</div>
+			<div class="clearfix"></div>
 		</div>
 	</div>
 	

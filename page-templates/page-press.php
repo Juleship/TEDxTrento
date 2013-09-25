@@ -8,9 +8,9 @@
 					<h2><span class="ted-title">Press page:</span></h2>
 					<hr />
 			</div>
-			<div class="row home-background row-press hidden-xs">
+			<div class="row press-background row-press hidden-xs">
 				<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 partners-intro text-center">
-					<h2>PRESS PAGE:</h2>
+					<h2 class="main-title">Press page:</h2>
 				</div>
 			</div>
 			<div class="col-sm-10 col-md-10 col-sm-offset-1 col-md-offset-1 index-padding">
