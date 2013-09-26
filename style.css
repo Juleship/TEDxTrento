@@ -284,3 +284,181 @@ body, html{
 	color: black;
   opacity: 0.9;
 }
+
+/* Speakers styling */
+
+.speakers .staff-member{
+	position: relative;
+	float: left;
+	width:50%;
+	padding: 10px;
+}
+.speakers .big-member{
+	position: relative;
+	float: left;
+	width:100%;
+	padding: 10px;
+}
+.speakers .staff-member .staff-member-photo{
+	position: relative;
+	top: 0;
+	height: 200px;
+	border-radius: 100px; 
+	margin: 10px;
+}
+.speakers .even img{
+	float: left;
+}
+.speakers .odd img{
+	float: right;
+}
+.speakers .staff-member-info-wrap .staff-member-position{
+	font-style: italic;
+	font-weight: 100;
+}
+.speakers .staff-member-info-wrap .staff-excerpt{
+	font-size: 16px;
+}
+.speakers .staff-member-info-wrap .staff-website a{
+	color: #FF2B06;
+}
+@media (max-width: 992px ) {
+	.speakers .staff-member{
+		width: 100%;
+	}
+	.speakers .staff-member .staff-member-photo{
+		height: 140px;
+	}
+}
+.speakers h3{
+	font-weight: 500;
+}
+.speakers .no-speakers{
+	display: none;
+}
+.even .ch-item{
+	float: left
+}
+.odd .ch-item{
+	float: right;
+}
+.speakers .ch-item {
+	position: relative;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: default;
+    box-shadow: 
+        inset 0 0 0 16px rgba(255,255,255,0.6),
+        0 1px 2px rgba(0,0,0,0.1);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    background-size: cover;
+}
+.speakers .ch-info {
+    position: absolute;
+    background: rgba(255,43,6, 0.6);
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -webkit-transform: scale(0);
+    transition: all 0.3s ease-in-out;
+    transform: scale(0);
+}
+.speakers .ch-info p {
+    color: #fff;
+    padding: 10px 5px;
+    font-style: italic;
+    margin-top: 40%;
+    text-align: center;
+    font-size: 12px;
+    /* border-top: 1px solid rgba(255,255,255,0.5); */
+    opacity: 0;
+    -webkit-transition: all 1s ease-in-out 0.3s;
+    transition: all 1s ease-in-out 0.3s;
+}
+.speakers .ch-info p{
+    display: block;
+    color: rgba(255,255,255,1);
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 1px;
+    padding-top: 0px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.speakers .big-member .ch-info p{
+	padding-top: 4px;
+	font-size: 10px;
+}
+.speakers .ch-info p:hover {
+	font-weight: 700;
+}
+.speakers .ch-item:hover {
+    box-shadow: 
+        inset 0 0 0 1px rgba(255,255,255,0.1),
+        0 1px 2px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.speakers .ch-item:hover .ch-info {
+	-webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+.speakers .ch-item:hover .ch-info p {
+    opacity: 1;
+}
+
+/* Partners styling */
+.partners .staff-member{
+	position: relative;
+	float: left;
+	width:25%;
+	padding: 10px;
+	height: 350px;
+}
+.partners .staff-member .staff-member-photo{
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 10px;
+}
+.partners .staff-member-info-wrap .staff-excerpt{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 13px;
+	font-style: italic;
+	margin-bottom: 0;
+}
+.partners .staff-member-info-wrap .staff-website a{
+	color: #FF2B06;
+}
+.partners h3{
+	display: none;
+}
+.partners .staff-img img{
+	vertical-align: middle;
+	max-height: 100px;
+	max-width: 100%;
+	text-align: center;
+}
+@media (max-width: 768px ) {
+	.partners .staff-member{
+		width: 50%;
+	}
+	.partners .staff-img img{
+	}
+}
+@media (min-width: 768px ) {
+	.partners .staff-img img{
+	}
+}
+
+
+

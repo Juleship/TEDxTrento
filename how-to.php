@@ -31,7 +31,7 @@
 </p>
 <p>Per la gestione degli speakers utilizzare il plugin <strong>Site Members</strong> nel menu a sinistra:</p>
 <ul>
-	<li>- Per inserire un nuovo speaker, fare click su <strong>Add New</strong> e inserire <strong>Nome</strong>, <strong>Staff Photo</strong>, <strong>Position</strong> (TITOLO DELLA TALK), <strong>Facebook URL</strong> (SITO WEB) ed <strong>Excerpt</strong> (BIOGRAFIA NON PIU LUNGA DI 140 CARATTERI). Dopodiché spuntare in basso a destra la casella <strong>Speakers</strong> e premere <strong>Pubblica</strong>. IMPORTANTE: la fotografia deve essere quadrata (non più di 300x300 pixels).</li> 
+	<li>- Per inserire un nuovo speaker, fare click su <strong>Add New</strong> e inserire <strong>Nome</strong>, <strong>Staff Photo</strong>, <strong>Position</strong> (TITOLO DELLA TALK), <strong>Facebook URL</strong> (SITO WEB, solo www.example.com senza http:// ) , <strong>Staff Member Bio</strong> (ARTICOLO CONTENENTE TUTTE LE INFORMAZIONI DELLA TALK) ed <strong>Excerpt</strong> (BIOGRAFIA NON PIU LUNGA DI 140 CARATTERI). Dopodiché spuntare in basso a destra la casella <strong>Speakers</strong> e premere <strong>Pubblica</strong>. IMPORTANTE: la fotografia deve essere quadrata (non più di 300x300 pixels).</li> 
 	<li>- Per visualizzare la lista degli speakers finora aggiunti premere su <strong>All Staff Members</strong> (nota bene: Speakers, Team e Partners sono tutti nella stessa lista, l'ordine che apparirà nel sito è relativo solo al gruppo visualizzato - es: solo a Speakers).</li>
 	<li>- Per modificare uno speakers accedere ad <strong>All Staff Members</strong> e premere su <strong>Edit</strong> sotto alla persona che si vuole modificare.</li>
 </ul>
