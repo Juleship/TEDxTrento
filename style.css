@@ -136,7 +136,7 @@ body, html{
 	background-size: cover;
 	background-image: url(img/home-text.jpg);
 }
-.home-background  .partners-intro p{
+.home-background  .home-intro p{
 	font-size: 24px;
 }
 .press-background{

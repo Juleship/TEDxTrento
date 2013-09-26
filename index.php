@@ -6,7 +6,7 @@
 
 
 	<div class="row home-row home-background">
-		<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 partners-intro index-padding tia-padded text-center">
+		<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 home-intro index-padding tia-padded text-center">
 			<h2 class="main-title"><span class="big-tedx">TEDx</span> sbarca a Trento!</h2>
 			<p>
 				Menti brillanti, progetti innovativi, idee creative e tanta passione renderanno la prima edizione di TEDxTrento un momento davvero unico. Non sarà solo una conferenza, ma una vera e propria fucina di idee.<br />Come puoi mancare?
