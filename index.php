@@ -20,18 +20,17 @@
 	
 	<div class="row home-row">			
 		<div id="tickets" class="col-sm-10 col-sm-offset-1 text-center index-big-padding">
-			<div class="col-md-5 text-left">
-					<?php
-						query_posts( 'p='.$hometitle );
-						while (have_posts()) : the_post();
-							the_content();
-						endwhile;
-						wp_reset_query();
-					?>				
-				
-			</div>
-			<div class="col-md-7">
-				<img class="youtube" src="<?php bloginfo('template_url'); ?>/img/youtube.jpg" />
+			
+			<div class="col-md-8 col-md-offset-2">
+				<div class="video-container">
+					<!--
+<div class="youtube">
+						<img id='player' src="<?php bloginfo('template_url'); ?>/img/youtube.jpg" />
+					</div>
+-->
+				    <iframe src="http://www.youtube.com/embed/PM2lpvKYKqo" frameborder="0" width="560" height="315" &enablejsapi=1></iframe>
+				</div>				
+<!-- <a href="http://www.youtube.com/watch?v=PM2lpvKYKqo"><img class="youtube" src="<?php bloginfo('template_url'); ?>/img/youtube.jpg" /></a> -->
 			</div>
 			<div class="clearfix"></div>
 		</div>

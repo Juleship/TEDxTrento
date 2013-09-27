@@ -51,3 +51,17 @@ $(function(){
 	});
 	
 });
+
+//youtube video
+//so on jquery event or whatever call the play or stop on the video.
+//to play player.playVideo();
+//to stop player.stopVideo();
+/*
+
+$(function() {
+	$('.youtube').click(function(){
+			$('.youtube').css({'display' : 'none'});
+			player.playVideo();
+		});
+});
+*/

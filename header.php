@@ -29,7 +29,6 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:300,500' rel='stylesheet' type='text/css'>
     <!-- fontello -->
     <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/fontello.css">
-    
     <!--[if IE 7]>
     <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/fontello-ie7.css"><![endif]-->
     
