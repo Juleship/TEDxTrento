@@ -14,7 +14,7 @@
 		<div class="row partners-background">
 			<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 partners-intro tia-padded raleway">
 				<?php
-					query_posts( 'p='.$partnersintro );
+					query_posts( 'p='.$partnersintro);
 					while (have_posts()) : the_post();
 						the_content();
 					endwhile;
