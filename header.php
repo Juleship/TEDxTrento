@@ -62,12 +62,12 @@
 			  <!-- Collect the nav links, forms, and other content for toggling -->
 			  <div class="collapse navbar-collapse navbar-ex1-collapse">
 			    <ul class="nav navbar-nav">
-			      <li id="nav-about"><a href="about">About</a></li>
-			      <li id="nav-speakers"><a href="speakers">Speakers</a></li>
+			      <li id="nav-about"><a href="<?php echo home_url(); ?>/about">About</a></li>
+			      <li id="nav-speakers"><a href="<?php echo home_url(); ?>/speakers">Speakers</a></li>
 			      <!-- <li id="nav-programma"><a href="?page_id=10">Programma</a></li> -->
-			      <li id="nav-team"><a href="team">Team</a></li>
-			      <li id="nav-partners"><a href="partners">Partners</a></li>
-			      <li id="nav-contatti"><a href="contatti">Contatti</a></li>
+			      <li id="nav-team"><a href="<?php echo home_url(); ?>/team">Team</a></li>
+			      <li id="nav-partners"><a href="<?php echo home_url(); ?>/partners">Partners</a></li>
+			      <li id="nav-contatti"><a href="<?php echo home_url(); ?>/contatti">Contatti</a></li>
 			    </ul>
 			  </div><!-- /.navbar-collapse -->
 			</nav>
@@ -81,10 +81,10 @@
 			  		<a class="logo" href="<?php echo home_url(); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png"></a>
 			  	</li>
 			  	<li class="menu-item about">
-			  		<a href="about">About</a>
+			  		<a href="<?php echo home_url(); ?>/about">About</a>
 			  	</li>
 			  	<li class="menu-item speakers">
-			  		<a href="speakers">Speakers</a>
+			  		<a href="<?php echo home_url(); ?>/speakers">Speakers</a>
 			  	</li>
 			  	<!--
 <li class="menu-item programma">
@@ -92,13 +92,13 @@
 			  	</li>
 -->
 			  	<li class="menu-item team">
-			  		<a href="team">Team</a>
+			  		<a href="<?php echo home_url(); ?>/team">Team</a>
 			  	</li>
 			  	<li class="menu-item partners">
-			  		<a href="partners">Partners</a>
+			  		<a href="<?php echo home_url(); ?>/partners">Partners</a>
 			  	</li>
 			  	<li class="menu-item contatti">
-			  		<a href="contatti">Contatti</a>
+			  		<a href="<?php echo home_url(); ?>/contatti">Contatti</a>
 			  	</li>
 			  </ul>	
 	  		</div> 

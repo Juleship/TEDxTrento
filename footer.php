@@ -56,6 +56,7 @@
 	}(document, 'script', 'facebook-jssdk'));</script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="//code.jquery.com/jquery.js"></script>
+    <script src="<?php bloginfo( 'template_url' ); ?>/js/jquery-9-min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<?php bloginfo( 'template_url' ); ?>/js/bootstrap.min.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/js/tab.js"></script>

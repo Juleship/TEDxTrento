@@ -245,11 +245,16 @@ body, html{
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	font-size: 16pt;
+	font-size: 12pt;
 	/*
 	padding-right: 5px;
 	padding-left: 5px;
 */
+}
+@media ( max-width : 768px){
+	.clock li{
+		font-size: 10pt;
+	}
 }
 .partners-intro p{
 	font-size: 25px;
@@ -325,7 +330,8 @@ body, html{
 }
 .speakers .staff-member-info-wrap .staff-member-position{
 	font-style: italic;
-	font-weight: 100;
+	letter-spacing: 0.1em;
+	font-weight: 300;
 }
 .speakers .staff-member-info-wrap .staff-excerpt{
 	font-size: 16px;

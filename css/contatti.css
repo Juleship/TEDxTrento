@@ -20,6 +20,9 @@
 	font-weight: 100;
 	font-size:18px;
 }
+.ninja-forms-form-wrap{
+	padding-right: 0px;
+}
 #ninja_forms_field_1_label, #ninja_forms_field_2_label, #ninja_forms_field_3_label, #ninja_forms_field_4_label, #ninja_forms_field_5_label, #ninja_forms_field_6_label, #ninja_forms_field_7_label, #ninja_forms_field_8_label, #ninja_forms_field_9_label, #ninja_forms_field_10_label, #ninja_forms_field_11_label, #ninja_forms_field_12_label, #ninja_forms_field_13_label, #ninja_forms_field_14_label, #ninja_forms_field_15_label, #ninja_forms_field_16_label, #ninja_forms_field_17_label, #ninja_forms_field_18_label, #ninja_forms_field_19_label, #ninja_forms_field_20_label, #ninja_forms_field_21_label{
 	width: 145px;
 	font-weight: 200;
@@ -28,6 +31,14 @@
 .textarea-wrap textarea{
 	width: 60%;
 	height: 200px !important;
+}
+@media ( max-width : 768px){
+	.textarea-wrap textarea{
+		width: 90%;
+	}
+	.ninja-forms-field{
+		margin-right: 10px;
+	}
 }
 .list-checkbox-wrap ul li label{
 	font-weight: 200;
