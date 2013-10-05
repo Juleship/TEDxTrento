@@ -463,7 +463,7 @@ body, html{
 }
 .partners .staff-img img{
 	vertical-align: middle;
-	max-height: 100px;
+	/* max-height: 100px; */
 	max-width: 100%;
 	text-align: center;
 }
