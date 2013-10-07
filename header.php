@@ -105,7 +105,7 @@
 			<div class="col-sm-2 icons">
 		        <a href="http://www.facebook.com/tedxtrento" target="_blank"><i class="icon-facebook-squared"></i></a>
 		        <a href="http://www.twitter.com/tedxtrento" target="_blank"><i class="icon-twitter-squared"></i></a>
-		        <a href="mailto:info@tedxtrento.com"><i class="icon-mail"></i></a>
+		        <a href="https://plus.google.com/103590378333728514123" target="_blank"><i class="icon-gplus-squared"></i></a>
 			</div>
       </div>
 	  			<!--
