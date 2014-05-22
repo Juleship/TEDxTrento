@@ -31,7 +31,7 @@
 				?>
 				<hr />
 				<h2><span class="ted-title">TEDx</span></h2>
-					<img src="<?php bloginfo( 'template_url' ); ?>/img/about_tedx.jpg" style="width: 100%;">
+					<img src="<?php bloginfo( 'template_url' ); ?>/img/about_tedx.jpg"  style="width: 100%;">
 				  <?php
 					query_posts( 'p='.$abouttedx );
 					while (have_posts()) : the_post();
@@ -41,7 +41,7 @@
 				?>
 				 <hr />
 				 <h2><span class="ted-title">TEDx</span><span class="trento black">Trento</span></h2>
-				 <img src="<?php bloginfo( 'template_url' ); ?>/img/about_tedxtrento.jpg" style="width: 100%;">
+				 <img src="<?php bloginfo( 'template_url' ); ?>/img/about_tedxtrento.jpg"  style="width: 100%;">
 				  <?php
 					query_posts( 'p='.$abouttedxtrento );
 					while (have_posts()) : the_post();
@@ -79,7 +79,7 @@
 		</div>
 		<div class="tab-content">
 		  <div class="tab-pane active start fade" id="ted">
-		  	<img src="<?php bloginfo( 'template_url' ); ?>/img/about_ted.jpg">
+		  	<img src="<?php bloginfo( 'template_url' ); ?>/img/about_ted.jpg"  style="width: 100%;">
 		  	<?php
 					query_posts( 'p='.$aboutted );
 					while (have_posts()) : the_post();
@@ -88,7 +88,7 @@
 				?>
 				</div>
 		  <div class="tab-pane fade" id="tedx">
-			  <img src="<?php bloginfo( 'template_url' ); ?>/img/about_tedx.jpg">
+			  <img src="<?php bloginfo( 'template_url' ); ?>/img/about_tedx.jpg"  style="width: 100%;">
 			  <?php
 					query_posts( 'p='.$abouttedx );
 					while (have_posts()) : the_post();
@@ -98,7 +98,7 @@
 				?>
 		  </div>
 		  <div class="tab-pane fade" id="tedxtrento">
-		  	<img src="<?php bloginfo( 'template_url' ); ?>/img/about_tedxtrento.jpg">
+		  	<img src="<?php bloginfo( 'template_url' ); ?>/img/about_tedxtrento.jpg"  style="width: 100%;">
 			  <?php
 					query_posts( 'p='.$abouttedxtrento );
 					while (have_posts()) : the_post();

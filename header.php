@@ -10,20 +10,24 @@
 	    endwhile; 
 	    endif; 
 	?>
-    <title>TEDx Trento - <?php echo $page_name_big ?></title>
+    <title>TEDxTrento - <?php echo $page_name_big ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="TEDxTrento official website.">
+    <meta name="description" content="TEDxTrento: Menti brillanti - Progetti innovativi - Idee creative - Tanta passione - 23 novembre 2013 - Teatro Sociale di Trento">
     <meta name="keywords" content="TEDx, TED, Trento, TEDxTrento, Technology, Entratainment, Design, qualità della vita">
     <!-- Facebook tags -->
-	<meta property="og:image" content="<?php bloginfo( 'template_url' ); ?>/img/facebook.jpg">
+	<meta property="og:image" content="<?php bloginfo( 'template_url' ); ?>/img/tedxtrento-facebook.jpg">
 	<meta property="og:image:type" content="image/png">
 	<meta property="og:image:width" content="1024">
 	<meta property="og:image:height" content="1024">
     <!-- Bootstrap -->
-    <link href="<?php bloginfo( 'template_url' ); ?>/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="<?php bloginfo( 'template_url' ); ?>/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <!-- custom css -->
     <link href="<?php bloginfo( 'template_url' ); ?>/style.css" rel="stylesheet" media="screen">
-    <link href="<?php bloginfo( 'template_url' ); ?>/css/<?php echo $page_name ?>.css" rel="stylesheet" media="screen">
+    <?php 
+    	if(!is_home()){
+    		echo '<link href="'.get_bloginfo( 'template_url' ).'/css/'.$page_name.'.css" rel="stylesheet" media="screen">';
+    		}
+    ?>
     <link href="<?php bloginfo( 'template_url' ); ?>/css/header.css" rel="stylesheet" media="screen">
     <!-- G font -->
     <link href='http://fonts.googleapis.com/css?family=Raleway:300,500' rel='stylesheet' type='text/css'>
@@ -62,12 +66,12 @@
 			  <!-- Collect the nav links, forms, and other content for toggling -->
 			  <div class="collapse navbar-collapse navbar-ex1-collapse">
 			    <ul class="nav navbar-nav">
-			      <li id="nav-about"><a href="<?php echo home_url(); ?>/about">About</a></li>
-			      <li id="nav-speakers"><a href="<?php echo home_url(); ?>/speakers">Speakers</a></li>
-			      <!-- <li id="nav-programma"><a href="?page_id=10">Programma</a></li> -->
-			      <li id="nav-team"><a href="<?php echo home_url(); ?>/team">Team</a></li>
-			      <li id="nav-partners"><a href="<?php echo home_url(); ?>/partners">Partners</a></li>
-			      <li id="nav-contatti"><a href="<?php echo home_url(); ?>/contatti">Contatti</a></li>
+			      <li id="nav-about"><a href="<?php echo home_url(); ?>/about/">About</a></li>
+			      <li id="nav-speakers"><a href="<?php echo home_url(); ?>/speakers/">Speakers</a></li>
+			      <li id="nav-gallery"><a href="<?php echo home_url(); ?>/gallery/">Gallery</a></li>
+			      <li id="nav-team"><a href="<?php echo home_url(); ?>/team/">Team</a></li>
+			      <li id="nav-partners"><a href="<?php echo home_url(); ?>/partners/">Partners</a></li>
+			      <li id="nav-contatti"><a href="<?php echo home_url(); ?>/contatti/">Contacts</a></li>
 			    </ul>
 			  </div><!-- /.navbar-collapse -->
 			</nav>
@@ -78,34 +82,32 @@
 	  		<div class="col-md-10 wide-menu">
 			  <ul class="top-navbar">
 			  	<li>
-			  		<a class="logo" href="<?php echo home_url(); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png"></a>
+			  		<a class="logo" href="<?php echo home_url(); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/img/tedxtrento-logo.png" width="220" height="50"></a>
 			  	</li>
 			  	<li class="menu-item about">
-			  		<a href="<?php echo home_url(); ?>/about">About</a>
+			  		<a href="<?php echo home_url(); ?>/about/">About</a>
 			  	</li>
 			  	<li class="menu-item speakers">
-			  		<a href="<?php echo home_url(); ?>/speakers">Speakers</a>
+			  		<a href="<?php echo home_url(); ?>/speakers/">Speakers</a>
 			  	</li>
-			  	<!--
-<li class="menu-item programma">
-			  		<a href="?page_id=10">Programma</a>
+			  	<li class="menu-item gallery">
+			  		<a href="<?php echo home_url(); ?>/gallery/">Gallery</a>
 			  	</li>
--->
 			  	<li class="menu-item team">
-			  		<a href="<?php echo home_url(); ?>/team">Team</a>
+			  		<a href="<?php echo home_url(); ?>/team/">Team</a>
 			  	</li>
 			  	<li class="menu-item partners">
-			  		<a href="<?php echo home_url(); ?>/partners">Partners</a>
+			  		<a href="<?php echo home_url(); ?>/partners/">Partners</a>
 			  	</li>
 			  	<li class="menu-item contatti">
-			  		<a href="<?php echo home_url(); ?>/contatti">Contatti</a>
+			  		<a href="<?php echo home_url(); ?>/contatti/">Contacts</a>
 			  	</li>
 			  </ul>	
 	  		</div> 
-			<div class="col-sm-2 icons">
-		        <a href="http://www.facebook.com/tedxtrento" target="_blank"><i class="icon-facebook-squared"></i></a>
-		        <a href="http://www.twitter.com/tedxtrento" target="_blank"><i class="icon-twitter-squared"></i></a>
-		        <a href="https://plus.google.com/103590378333728514123" target="_blank"><i class="icon-gplus-squared"></i></a>
+			<div class="col-sm-2 icons navbar-icons">
+		        <a href="http://www.facebook.com/TEDxTrento"><i class="icon-facebook-squared"></i></a>
+		        <a href="http://www.twitter.com/TEDxTrento"><i class="icon-twitter-squared"></i></a>
+		        <a href="http://plus.google.com/+TEDxTrento"><i class="icon-gplus-squared"></i></a>
 			</div>
       </div>
 	  			<!--

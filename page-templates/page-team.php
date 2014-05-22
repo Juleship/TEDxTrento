@@ -7,7 +7,7 @@
 	$teamoutro = 'team-outro';
 	$teamoutro = $wpdb->get_var( "SELECT ID FROM $wpdb->posts WHERE post_title = '" . $teamoutro . "'" );
 ?>
-	<div class="col-sm-12">
+	<div class="col-sm-12 no-pad">
 		<div class="visible-xs mobile">
 				<h2><span class="ted-title">Il nostro team:</span></h2>
 				<hr />

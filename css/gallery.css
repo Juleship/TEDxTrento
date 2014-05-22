@@ -1,0 +1,19 @@
+.gallery pre{
+	background-color: white;
+	border: none;
+}
+.text-center p{
+	line-height: 20px !important;
+	font-size: 20px !important;
+}
+.text-center a{
+	line-height: 20px !important;
+	font-size: 20px !important;
+	vertical-align: baseline;
+}
+.flickr-logo{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	vertical-align: baseline;
+}

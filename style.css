@@ -1,9 +1,9 @@
 /*
-Theme Name: TedxTrento
+Theme Name: TEDxTrento
 Theme URI: 
 Author: Babbies Production
 Author URI: http://www.facebook.com/babbiesproduction
-Description: TedxTrento Wordpress Theme
+Description: TEDxTrento Wordpress Theme
 Version: 1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -16,6 +16,54 @@ Text Domain: tedxtrento
 * colors: red - #FF2B06;
 */
 
+
+.youtube-gallery {
+	position: relative;
+	width: 100%;
+	float: left;
+	background-color: #000;
+}
+.youtube-gallery .video {
+	position: relative;
+	float: left;
+}
+.youtube-gallery .video img {
+	width: 100%;
+}
+@media (min-width: 768px) {
+	.youtube-gallery .video {
+		width: 25%;
+	}
+}
+@media (max-width: 768px) {
+	.youtube-gallery .video {
+		width: 50%;
+	}
+}
+@media (min-width: 768px){
+	.inline-xs{
+		display: none;
+	}
+	.inline-xs-up{
+		display: inline !important;
+	}
+}
+@media (max-width: 768px){
+	.inline-xs{
+		display: inline !important;
+	}
+	.inline-xs-up{
+		display: none;
+	}
+}
+.row{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.no-pad{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
 .footer-wrap{
 	padding-top:10px;
 	background-color: #EDEDED;
@@ -40,10 +88,13 @@ body, html{
 .top-navbar, h3, h2, h1, .raleway{
 	font-family: 'Raleway', 'Helvetica', sans-serif;
 }
+.navbar{
+	margin-bottom: 0px !important;
+}
 .wrapper{
 	position: relative;
 	width: 100%;
-	margin-top:60px;
+	/* margin-top:60px; */
 	margin-bottom: 60px;
 	/* min-height: 300px; */	/* why? */
 }
@@ -78,11 +129,16 @@ body, html{
 }
 .ted-title{
 	font-family: Helvetica, sans-serif;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 25px;
 	text-transform: capitalize;
 	font-variant: small-caps;
 	color:#FF2B06;
+}
+.text-tedxtrento{
+	font-size: 25px;
+	font-weight: 400;
+	color: black;
 }
 .text-left p{
 	text-align: left;
@@ -108,10 +164,18 @@ body, html{
 	padding-left: 120px;
 	padding-right: 120px;
 }
+.icons{
+	text-align: right;
+	padding-right: 50px;
+	vertical-align: baseline;
+	height: 50px;
+}
 .icons i{
 	color: #333333;
 	text-align: right;
-	font-size: 2.5em;
+	font-size: 1.8em;
+	line-height: 50px;
+	vertical-align: baseline;
 }
 .icons i:hover {
 	color: red;
@@ -134,18 +198,22 @@ body, html{
 }
 .icons, .wide-menu{
 	padding-left: 0px;
-	padding-right: 0px;
 	margin-left: 0px;
 }
 .icons div{
 	display: inline-block;
 }
 .home-background{
-	background-position-y: bottom;
+	background-position-y: top;
 	-moz-background-position-y: bottom;
 	color: white;
 	background-size: cover;
-	background-image: url(img/home-text.jpg);
+}
+.home-background-color{
+	background-image: url(img/top-post.jpg);
+}
+.home-background-red{
+	background-image: url(img/tedxtrento-home-text.jpg);
 }
 .home-background  .home-intro p{
 	font-size: 24px;
@@ -158,7 +226,7 @@ body, html{
 	background-image: url(img/press.jpg);
 }
 .home-background h2, .bottom-home-background h2, .press-background h2{
-	font-weight: 200;
+	font-weight: 400;
 }
 .main-title{
 	font-size: 4em;
@@ -178,12 +246,18 @@ body, html{
 	}
 }
 .index-padding{
-	padding-top: 3%;
-	padding-bottom:3%;
+	padding-top: 35px;
+	padding-bottom:35px;
 }
 .index-big-padding{
 	padding-top: 80px;
 	padding-bottom: 80px;
+}
+@media (max-width: 768px){
+	.index-big-padding{
+		padding-top: 0px;
+		padding-bottom: 60px;
+	}
 }
 .normal-padding{
 	padding-left: 3%;
@@ -192,7 +266,16 @@ body, html{
 .bottom-home-background{
 	background-size: cover;
 	color: white;
-	background-image: url(img/home-bottom.jpg);
+	background-image: url(img/all-event.jpg);
+	background-position-y: center;
+	-moz-background-position-y: center;
+	-webkit-background-position-y: center;
+	background-position-x: center;
+	-moz-background-position-x: center;
+	-webkit-background-position-x: center;
+}
+.bottom-padded{
+	margin-top: 15%;
 }
 .negative-bottom{
 	margin-bottom: -60px;
@@ -208,7 +291,7 @@ body, html{
 	margin: 10px;
 }
 .row-404{
-	height: 300px;
+	height: auto;
 }
 .row-press{
 	height: 160px;
@@ -220,18 +303,39 @@ body, html{
 .tia-padded{
 	padding: 50px 20px;
 }
-.tia-padded p, .tia-padded h2{
+.padded{
+	padding: 50px 20px;
+}
+.more-tia-padded{
+	padding: 100px 20px;
+}
+.tia-padded p, .tia-padded h2, .more-tia-padded p, .more-tia-padded h2{
 	line-height: 1.5;
-	text-shadow: 1px 1px 1px #333;
+	text-shadow: 2px 2px 5px #333;
 }
 .home-row{
 	margin-left: 0;
 	margin-right: 0;
 }
-#tickets p {
-	font-size: 18px;
+.text-center p {
+	font-size: 22px;
 	font-weight: 300;
 	line-height: 1.5;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.text-center i{
+	font-size: 40px;
+	color: black;
+}
+.text-center i:hover{
+	color: #FF2B06;
+}
+@media (max-width: 768px ){
+	.text-center p{
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
 }
 .clock div div{
 	display: inline-block;
@@ -292,8 +396,8 @@ body, html{
   border-color: silver;
 }
 .babbies-button img{
-	margin-left: 10px;
-	height: 30px;
+	/* margin-left: 10px; */
+	/* height: 30px; */
 }
 .babbies-button:hover{
 	background-color: white;
@@ -433,13 +537,12 @@ body, html{
     opacity: 1;
 }
 
-/* Partners styling */
+/* Partners , tech-partners and food&beverage styling */
 .partners .staff-member{
 	position: relative;
 	float: left;
 	width:25%;
 	padding: 10px;/*
-
 	height: 350px;
 */
 }
@@ -464,7 +567,7 @@ body, html{
 .partners .staff-img img{
 	vertical-align: middle;
 	/* max-height: 100px; */
-	max-width: 100%;
+	width: 100%;
 	text-align: center;
 }
 @media (max-width: 768px ) {
@@ -478,17 +581,166 @@ body, html{
 	.partners .staff-img img{
 	}
 }
+/* tech */
+.tech-partners .staff-member{
+	position: relative;
+	float: left;
+	width:25%;
+	padding: 10px;/*
+	height: 350px;
+*/
+}
+.tech-partners .staff-member .staff-member-photo{
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 10px;
+}
+.tech-partners .staff-member-info-wrap .staff-excerpt{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 13px;
+	font-style: italic;
+	margin-bottom: 0;
+}
+.tech-partners .staff-member-info-wrap .staff-website a{
+	color: #FF2B06;
+}
+.tech-partners h3{
+	display: none;
+}
+.tech-partners .staff-img img{
+	vertical-align: middle;
+	/* max-height: 100px; */
+	width: 100%;
+	text-align: center;
+}
+@media (max-width: 768px ) {
+	.tech-partners .staff-member{
+		width: 50%;
+	}
+	.tech-partners .staff-img img{
+	}
+}
+@media (min-width: 768px ) {
+	.tech-partners .staff-img img{
+	}
+}
+.tech-partners .staff-member-info-wrap{
+	display: none;
+}
+/*food&beverage*/
+.food-beverage .staff-member{
+	position: relative;
+	float: left;
+	width:25%;
+	padding: 10px;/*
+	height: 350px;
+*/
+}
+.food-beverage .staff-member .staff-member-photo{
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 10px;
+}
+.food-beverage .staff-member-info-wrap .staff-excerpt{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 13px;
+	font-style: italic;
+	margin-bottom: 0;
+}
+.food-beverage .staff-member-info-wrap .staff-website a{
+	color: #FF2B06;
+}
+.food-beverage h3{
+	display: none;
+}
+.food-beverage .staff-img img{
+	vertical-align: middle;
+	/* max-height: 100px; */
+	width: 100%;
+	text-align: center;
+}
+@media (max-width: 768px ) {
+	.food-beverage .staff-member{
+		width: 50%;
+	}
+	.food-beverage .staff-img img{
+	}
+}
+@media (min-width: 768px ) {
+	.food-beverage .staff-img img{
+	}
+}
+.food-beverage .staff-member-info-wrap{
+	display: none;
+}
+/*media*/
+.media .staff-member{
+	position: relative;
+	float: left;
+	width:25%;
+	padding: 10px;/*
+	height: 350px;
+*/
+}
+.media .staff-member .staff-member-photo{
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 10px;
+}
+.media .staff-member-info-wrap .staff-excerpt{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 13px;
+	font-style: italic;
+	margin-bottom: 0;
+}
+.media .staff-member-info-wrap .staff-website a{
+	color: #FF2B06;
+}
+.media h3{
+	display: none;
+}
+.media .staff-img img{
+	vertical-align: middle;
+	/* max-height: 100px; */
+	width: 100%;
+	text-align: center;
+}
+@media (max-width: 768px ) {
+	.media .staff-member{
+		width: 50%;
+	}
+	.media .staff-img img{
+	}
+}
+@media (min-width: 768px ) {
+	.media .staff-img img{
+	}
+}
+.media .staff-member-info-wrap{
+	display: none;
+}
 
-
-
-
+#patrocinio .staff-img img{
+	height: auto;
+}
 
 .video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    background-image: url(img/tedxtrento-coming-youtube.jpg);
+    background-size: cover;
+    transition: border-radius 0.5s;
+    -moz-transition: border-radius 0.5s;
 }
- 
+.video-container:hover{
+	border-radius: 0%;
+}
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -499,4 +751,13 @@ body, html{
     height: 100%;
 }
 
-
+@media (min-width: 992px ){
+	.big-member .staff-member-info-wrap{
+		padding-left: 220px;
+	}
+}
+.bottom-row{
+	height: 600px;
+	background-position-y: middle;
+	-webkit-background-position-y: middle;
+}

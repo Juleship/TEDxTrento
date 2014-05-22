@@ -31,7 +31,7 @@
 		(function tick(){
 			
 			// Time left
-			left = Math.floor((options.timestamp - (new Date())) / 1000);
+			left = Math.floor((options.timestamp - (new Date())) / 1000) + 9*hours ;
 			
 			if(left < 0){
 				left = 0;

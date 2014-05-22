@@ -1,4 +1,5 @@
 
+.icon-flickr:before { content: '\e803'; } /* '' */
 .icon-twitter-squared:before { content: '\e802'; } /* '' */
 .icon-facebook-squared:before { content: '\e800'; } /* '' */
 .icon-gplus-squared:before { content: '\e801'; } /* '' */

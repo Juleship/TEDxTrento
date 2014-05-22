@@ -52,6 +52,18 @@ $(function(){
 	
 });
 
+var videoW;
+
+$(document).ready(function(){
+	videoW = $('.video-container').width();
+	$('.video-container').height(videoW);
+});
+
+$(window).resize(function(){
+		videoW = $('.video-container').width();
+		$('.video-container').height(videoW);
+});
+
 //youtube video
 //so on jquery event or whatever call the play or stop on the video.
 //to play player.playVideo();

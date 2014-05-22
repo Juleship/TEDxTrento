@@ -6,7 +6,7 @@
 	$partnersintro = $wpdb->get_var( "SELECT ID FROM $wpdb->posts WHERE post_title = '" . $partnersintro . "'" );
 ?>
 	
-	<div class="col-sm-12">
+	<div class="col-sm-12 no-pad">
 		<div class="visible-xs mobile">
 				<h2><span class="ted-title">I nostri partners:</span></h2>
 			<hr />
@@ -24,20 +24,27 @@
 			</div>
 		</div>
 		<div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
-			<div class="row">
+			<div class="row" id="patrocinio">
 				<div class="staff-member-listing partners">
 					<h2>Con il patrocinio di:</h2>
 					<div class="staff-member even">
 						<div class="staff-img no-speakers no-team">
-							<a href="" taget="_blank">
-								<img class="staff-member-photo" src="<?php bloginfo( 'template_url' ); ?>/img/PAT.png" alt="Provincia Autonoma di Trento" />
+							<a href="http://www.visittrentino.it/" taget="_blank">
+								<img class="staff-member-photo" src="<?php bloginfo( 'template_url' ); ?>/img/tedxtrento-patrocinio-trentino.png" alt="Trentino Sviluppo" />
 							</a>
 						</div>
 					</div>
 					<div class="staff-member odd">
 						<div class="staff-img no-speakers no-team">
-							<a href="" taget="_blank">
-								<img class="staff-member-photo" src="<?php bloginfo( 'template_url' ); ?>/img/comune-TN.png" alt="Comune di Trento" />
+							<a href="http://www.provincia.tn.it/" taget="_blank">
+								<img class="staff-member-photo" src="<?php bloginfo( 'template_url' ); ?>/img/tedxtrento-patrocinio-provincia-autonoma-di-trento.png" alt="Provincia Autonoma di Trento" />
+							</a>
+						</div>
+					</div>
+					<div class="staff-member even">
+						<div class="staff-img no-speakers no-team">
+							<a href="http://www.comune.trento.it/" taget="_blank">
+								<img class="staff-member-photo" src="<?php bloginfo( 'template_url' ); ?>/img/tedxtrento-patrocinio-comune-di-trento.png" alt="Comune di Trento" />
 							</a>
 						</div>
 					</div>
@@ -57,7 +64,7 @@
 				<?php
 					$partnersoutro = 'partners-outro';
 					$partnersoutro = $wpdb->get_var( "SELECT ID FROM $wpdb->posts WHERE post_title = '" . $partnersoutro . "'" );
-					query_posts( 'p='.'113');
+					query_posts( 'p='.$partnersoutro);
 					while (have_posts()) : the_post();
 						the_content();
 					endwhile;
